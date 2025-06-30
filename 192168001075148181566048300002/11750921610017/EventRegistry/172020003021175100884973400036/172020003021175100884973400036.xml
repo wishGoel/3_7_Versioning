@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EventRegistry>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_version><![CDATA[1]]></au_version>
+        <au_eventparam><![CDATA[]]></au_eventparam>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedDate><![CDATA[2025-06-27T07:20:50]]></au_modifiedDate>
+        <au_id><![CDATA[172020003021175100884973400036]]></au_id>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_projectOwner><![CDATA[Project:11750921610017]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:11750938665883]]></au_modifiedBy>
+        <au_userOwner><![CDATA[IndigoUser:11750938665883]]></au_userOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_paramMapXml><![CDATA[<Variables><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]initializedFromConnect2[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]TX.ActionDescriptor[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]customPFAction[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable><Variable><Name>[ABPM_._ESCAPE_._CDATA_._START]transactionInfo[ABPM_._ESCAPE_._CDATA_._END]</Name><Value>[ABPM_._ESCAPE_._CDATA_._START]Transaction:11751007799140[ABPM_._ESCAPE_._CDATA_._END]</Value></Variable></Variables>]]></au_paramMapXml>
+        <au_creationDate><![CDATA[2025-06-27T07:20:50]]></au_creationDate>
+        <au_entityName><![CDATA[EventRegistry_SourceEvent_11751007799140_1]]></au_entityName>
+        <au_description><![CDATA[EventRegistry_SourceEvent_11751007799140_1]]></au_description>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_eventId><![CDATA[FTPEvent:172020003021175100884973300035]]></au_eventId>
+        <au_subscriberId><![CDATA[Transaction:192168001115157319685870700005]]></au_subscriberId>
+    </AU_EventRegistry>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_eventId" type="12"/>
+        <column name="au_subscriberId" type="12"/>
+        <column name="au_eventparam" type="12"/>
+        <column name="au_paramMapXml" type="-1"/>
+    </columnInfo>
+</data>
