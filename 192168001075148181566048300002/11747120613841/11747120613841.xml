@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_projectType><![CDATA[3701]]></au_projectType>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_description><![CDATA[bd.Partner]]></au_description>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
-        <au_creationDate><![CDATA[2025-05-13T08:45:21]]></au_creationDate>
         <au_id><![CDATA[11747120613841]]></au_id>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
         <au_entityName><![CDATA[Project_11747120613839]]></au_entityName>
-        <au_version><![CDATA[1]]></au_version>
+        <au_projectType><![CDATA[3701]]></au_projectType>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_modifiedDate><![CDATA[2025-05-13T08:45:21]]></au_modifiedDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_creationDate><![CDATA[2025-05-13T08:45:21]]></au_creationDate>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_revision><![CDATA[f906e5b0acec4391403df38312cd216217ee9ecb]]></au_revision>
+        <au_modifiedDate><![CDATA[2025-05-13T08:45:21]]></au_modifiedDate>
+        <au_revision><![CDATA[e74694ec0509bb41114a2a9b7d9ab11c4b6746af]]></au_revision>
+        <au_description><![CDATA[bd.Partner]]></au_description>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
     </AU_PROJECT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
