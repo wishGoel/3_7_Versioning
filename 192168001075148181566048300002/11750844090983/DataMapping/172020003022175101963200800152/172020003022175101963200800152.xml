@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_sourceSchema><![CDATA[PDFSchema:172020003022175101906124100143]]></au_sourceSchema>
+        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
+        <au_aimapTrained><![CDATA[1]]></au_aimapTrained>
+        <au_modifiedDate><![CDATA[2025-06-27T11:57:12]]></au_modifiedDate>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <au_targetSchema><![CDATA[ExcelSchema:172020003022175101946400500147]]></au_targetSchema>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_creationDate><![CDATA[2025-06-27T10:20:32]]></au_creationDate>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":1751019640225,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"Drv_pdf2excel_DM1","mappingProject":"Project:11750844090983","mappingDescription":"Drv_pdf2excel_DM1","sourceSchemaID":"PDFSchema:172020003022175101906124100143","targetSchemaID":"ExcelSchema:172020003022175101946400500147","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"Drv_Excel_layout_for_pdf_validation","schemaID":"ExcelSchema:172020003022175101946400500147","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"Drv_pdf_layout1","schemaID":"PDFSchema:172020003022175101906124100143"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"Record","targetfieldpath":"/Root/Record","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020500047","elementItem":{"elementType":"SourceElement","name":"Record","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020500048_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020500048"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020500048","elementItem":{"elementType":"TargetElement","name":"Record","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020500047"]}],"expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record","targetrecord":"Root","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"Record","sourcefielddisplayname":"Record","sourcefieldpath":"/Root/page/Drv_Payment/Record","sourcerecord":"Drv_Payment","id":"Mapping-9"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record","expressionNote":"","expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record","confidence":"","foreachPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]}},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"FundCode","targetfieldpath":"/Root/Record/FundCode","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020500053","elementItem":{"elementType":"SourceElement","name":"FundCode","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020500054_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020500054"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020500054","elementItem":{"elementType":"TargetElement","name":"FundCode","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/FundCode"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020500053"]}],"expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode","targetrecord":"Record","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"FundCode","sourcefielddisplayname":"FundCode","sourcefieldpath":"/Root/page/Drv_Payment/Record/FundCode","sourcerecord":"Record","id":"Mapping-10"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/FundCode","expressionNote":"","expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]}},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"FundName","targetfieldpath":"/Root/Record/FundName","targetrecord":"Record","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"FundName","sourcefielddisplayname":"FundName","sourcefieldpath":"/Root/page/Drv_Payment/Record/FundName","sourcerecord":"Record","id":"Mapping-11"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/FundName","expressionNote":"","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName","expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020500056","elementItem":{"elementType":"SourceElement","name":"FundName","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020500057_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020500057"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020500057","elementItem":{"elementType":"TargetElement","name":"FundName","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/FundName"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020500056"]}],"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]}},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"SharesinIssue","targetfieldpath":"/Root/Record/SharesinIssue","targetrecord":"Record","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"SharesinIssue","sourcefielddisplayname":"SharesinIssue","sourcefieldpath":"/Root/page/Drv_Payment/Record/SharesinIssue","sourcerecord":"Record","id":"Mapping-12"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/SharesinIssue","expressionNote":"","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue","expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020500058","elementItem":{"elementType":"SourceElement","name":"SharesinIssue","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020500059_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020500059"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020500059","elementItem":{"elementType":"TargetElement","name":"SharesinIssue","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/SharesinIssue"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020500058"]}],"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]}},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"TotalNav","targetfieldpath":"/Root/Record/TotalNav","targetrecord":"Record","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"TotalNav","sourcefielddisplayname":"TotalNav","sourcefieldpath":"/Root/page/Drv_Payment/Record/TotalNav","sourcerecord":"Record","id":"Mapping-13"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/TotalNav","expressionNote":"","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav","expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020500061","elementItem":{"elementType":"SourceElement","name":"TotalNav","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020500062_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020500062"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020500062","elementItem":{"elementType":"TargetElement","name":"TotalNav","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/TotalNav"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020500061"]}],"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]}},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"Price1","targetfieldpath":"/Root/Record/Price1","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020503464","elementItem":{"elementType":"SourceElement","name":"Price","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020503465_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020503465"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020503465","elementItem":{"elementType":"TargetElement","name":"Price1","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/Price1"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020503464"]}],"expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price","targetrecord":"Record","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"Price","sourcefielddisplayname":"Price","sourcefieldpath":"/Root/page/Drv_Payment/Record/Price","sourcerecord":"Record","id":"Mapping-14"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/Price1","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price"},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"Price2","targetfieldpath":"/Root/Record/Price2","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020505671","elementItem":{"elementType":"SourceElement","name":"PriceUS","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020505672_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020505672"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020505672","elementItem":{"elementType":"TargetElement","name":"Price2","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/Price2"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020505671"]}],"expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS","targetrecord":"Record","mapping":[{"sourceName":"Drv_pdf_layout1","operatortype":"field","sourcefield":"PriceUS","sourcefielddisplayname":"PriceUS","sourcefieldpath":"/Root/page/Drv_Payment/Record/PriceUS","sourcerecord":"Record","id":"Mapping-7"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/Price2"},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfield":"Price3","targetfieldpath":"/Root/Record/Price3","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1751020508351","elementItem":{"elementType":"SourceElement","name":"Price_1","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1","paramsCount":0,"syntax":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1751020508352_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1751020508352"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1751020508352","elementItem":{"elementType":"TargetElement","name":"Price3","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1","paramsCount":1,"syntax":"Drv_Excel_layout_for_pdf_validation/Root/Record/Price3"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1751020508351"]}],"expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1","targetrecord":"Record","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"Price_1","sourcefielddisplayname":"Price_1","sourcefieldpath":"/Root/page/Drv_Payment/Record/Price_1","sourcerecord":"Record","id":"Mapping-15"}],"markComplete":false,"mapId":"Drv_Excel_layout_for_pdf_validation/Root/Record/Price3","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1"},{"order":1,"targetName":"Drv_Excel_layout_for_pdf_validation","targetfieldpath":"/Root/Record/@recordNumber","targetfield":"@recordNumber","targetrecord":"Record","expressionPath":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/@recordNumber","expression":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/@recordNumber","mapping":[{"sourceName":"","operatortype":"field","sourcefield":"@recordNumber","sourcefielddisplayname":"@recordNumber","sourcefieldpath":"/Root/page/Drv_Payment/Record/@recordNumber","sourcerecord":"Record","id":"Mapping-16"}],"suggestedValue":"$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/@recordNumber","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Map-1"}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_enableAIMap><![CDATA[1]]></au_enableAIMap>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules10487148096642921521.pdf]]></au_pdfFileName>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+<mappingVersion>6.1</mappingVersion>
+<mappingName>Drv_pdf2excel_DM1</mappingName>
+<mappingProject>Project:11750844090983</mappingProject>
+<mappingDescription>Drv_pdf2excel_DM1</mappingDescription>
+<sourceSchemaID>PDFSchema:172020003022175101906124100143</sourceSchemaID>
+<targetSchemaID>ExcelSchema:172020003022175101946400500147</targetSchemaID>
+<mappingOwnerGroup>Group_1</mappingOwnerGroup>
+<mappingOwner>dhruv sharma</mappingOwner>
+<mappingLastModifiedBy>dhruv sharma</mappingLastModifiedBy>
+<mappingCreationDate>Fri Jun 27 10:20:32 UTC 2025</mappingCreationDate>
+<mappingModifiedDate>Fri Jun 27 11:57:12 UTC 2025</mappingModifiedDate>
+<reusable>true</reusable>
+</mappingInformation>
+<sourceRoots>
+<sourceRoot>
+<name>Root</name>
+<schemaName>Drv_pdf_layout1</schemaName>
+<schemaID>PDFSchema:172020003022175101906124100143</schemaID>
+</sourceRoot>
+</sourceRoots>
+<targetRoots>
+<targetRoot>
+<name>Root</name>
+<schemaName>Drv_Excel_layout_for_pdf_validation</schemaName>
+<schemaID>ExcelSchema:172020003022175101946400500147</schemaID>
+<stream>output_1</stream>
+</targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record</mapValue>
+ <forEach>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record</forEach>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Record">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/FundCode</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="FundCode">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/FundCode" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundCode" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/FundName</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="FundName">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/FundName" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/FundName" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/SharesinIssue</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="SharesinIssue">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/SharesinIssue" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/SharesinIssue" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/TotalNav</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="TotalNav">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/TotalNav" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/TotalNav" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/Price1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Price1">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Price1" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/Price2</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Price2">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Price2" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/PriceUS" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/Price3</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Price3">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1" mapString="&lt;S&gt;$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Price3" mapString="$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/Price_1" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Excel_layout_for_pdf_validation</targetName>
+<dest>/Root/Record/@recordNumber</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_layout1/Root/page/Drv_Payment/Record/@recordNumber</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="@recordNumber">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/@recordNumber" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+<valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+<globalTemplate>global</globalTemplate>
+<customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+<streamingMode>false</streamingMode>
+<filterEmptyElements>false</filterEmptyElements>
+<dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+<SelfRecursionLevel>0</SelfRecursionLevel>
+<EnableTypesBuffering>true</EnableTypesBuffering>
+<CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+<consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:for-each select = "."><xsl:apply-templates select="." mode="_Root_Record_order1">
+</xsl:apply-templates></xsl:for-each></Root></xsl:template><xsl:template match="/Root/page/Drv_Payment/Record" mode="_Root_Record_order1">
+<Record><xsl:attribute name="recordNumber"><xsl:value-of select="./@recordNumber"/></xsl:attribute><FundCode><xsl:value-of select="FundCode"/></FundCode><FundName><xsl:value-of select="FundName"/></FundName><SharesinIssue><xsl:value-of select="SharesinIssue"/></SharesinIssue><TotalNav><xsl:value-of select="TotalNav"/></TotalNav><Price1><xsl:value-of select="Price"/></Price1><Price2><xsl:value-of select="PriceUS"/></Price2><Price3><xsl:value-of select="Price_1"/></Price3></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_entityName><![CDATA[Drv_pdf2excel_DM1]]></au_entityName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_id><![CDATA[172020003022175101963200800152]]></au_id>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_description><![CDATA[Drv_pdf2excel_DM1]]></au_description>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+    </columnInfo>
+</data>
