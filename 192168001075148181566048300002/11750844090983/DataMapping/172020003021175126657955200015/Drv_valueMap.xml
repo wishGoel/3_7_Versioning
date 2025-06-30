@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueMaps xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<valueMap>
+<name>
+Drv_valueMap
+</name>
+<valueMapDetails>
+<value>
+1
+</value>
+<map>
+field
+</map>
+</valueMapDetails>
+<defaultValue>$param</defaultValue>
+<overrideSource>
+true</overrideSource>
+<valueMapXSL>
+&lt;xsl:template name="Drv_valueMap">
+	&lt;xsl:param name="param"/>
+&lt;xsl:choose>&lt;xsl:when test="$param=&amp;apos;1&amp;apos;">&lt;xsl:value-of select="&amp;apos;field&amp;apos;"/>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:value-of select="$param"/>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/xsl:template>
+</valueMapXSL>
+
+</valueMap>
+</valueMaps>

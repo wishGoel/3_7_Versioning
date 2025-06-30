@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_revision><![CDATA[f055727eea3faf1de0c7d7eabd192bd45550eebc]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_creationDate><![CDATA[2025-06-25T09:44:40]]></au_creationDate>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
         <au_modifiedDate><![CDATA[2025-06-25T09:44:40]]></au_modifiedDate>
         <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
         <au_entityName><![CDATA[Drv376_Project1]]></au_entityName>
-        <au_revision><![CDATA[df158e8057f927a9404aca53f1806b40fe1289cb]]></au_revision>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_description><![CDATA[Drv376_Project1]]></au_description>
-        <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_id><![CDATA[11750844090983]]></au_id>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_projectGroup><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_projectGroup>
-        <au_version><![CDATA[1]]></au_version>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_creationDate><![CDATA[2025-06-25T09:44:40]]></au_creationDate>
         <au_projectType><![CDATA[3700]]></au_projectType>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_projectGroup><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_projectGroup>
+        <au_id><![CDATA[11750844090983]]></au_id>
+        <au_description><![CDATA[Drv376_Project1]]></au_description>
+        <au_version><![CDATA[1]]></au_version>
     </AU_PROJECT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

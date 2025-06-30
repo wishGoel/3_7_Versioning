@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_modifiedDate><![CDATA[2025-06-27T09:05:39]]></au_modifiedDate>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
+        <au_targetSchema><![CDATA[TextSchema:172020003021175084466218400005]]></au_targetSchema>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_version><![CDATA[1]]></au_version>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":1751008076599,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"vp_json_specificationFile_to_text_DM","mappingProject":"Project:11750844090983","mappingDescription":"vp_json_specificationFile_to_text_DM","sourceSchemaID":"JSONSchema:172020003022175083317380900014","targetSchemaID":"TextSchema:172020003021175084466218400005","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"Drv_text_layout","schemaID":"TextSchema:172020003021175084466218400005","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"vp_json_specification_file","schemaID":"JSONSchema:172020003022175083317380900014"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/productId","targetfield":"productId","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/productId","expression":"$Input_vp_json_specification_file/Root/products/productId","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"productId","sourcefielddisplayname":"productId","sourcefieldpath":"/Root/products/productId","sourcerecord":"products","id":"Mapping-1"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/productId","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/productId"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/productName","targetfield":"productName","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/productName","expression":"$Input_vp_json_specification_file/Root/products/productName","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"productName","sourcefielddisplayname":"productName","sourcefieldpath":"/Root/products/productName","sourcerecord":"products","id":"Mapping-2"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/productName","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/productName"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/price","targetfield":"price","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/price","expression":"$Input_vp_json_specification_file/Root/products/price","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"price","sourcefielddisplayname":"price","sourcefieldpath":"/Root/products/price","sourcerecord":"products","id":"Mapping-3"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/price","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/price"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/description","targetfield":"description","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/description","expression":"$Input_vp_json_specification_file/Root/products/description","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"description","sourcefielddisplayname":"description","sourcefieldpath":"/Root/products/description","sourcerecord":"products","id":"Mapping-4"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/description","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/description"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/stock","targetfield":"stock","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/stock","expression":"$Input_vp_json_specification_file/Root/products/stock","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"stock","sourcefielddisplayname":"stock","sourcefieldpath":"/Root/products/stock","sourcerecord":"products","id":"Mapping-5"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/stock","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/stock"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/length","targetfield":"length","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/dimensions/length","expression":"$Input_vp_json_specification_file/Root/products/dimensions/length","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"length","sourcefielddisplayname":"length","sourcefieldpath":"/Root/products/dimensions/length","sourcerecord":"dimensions","id":"Mapping-6"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/dimensions/length","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/length"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/width","targetfield":"width","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/dimensions/width","expression":"$Input_vp_json_specification_file/Root/products/dimensions/width","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"width","sourcefielddisplayname":"width","sourcefieldpath":"/Root/products/dimensions/width","sourcerecord":"dimensions","id":"Mapping-7"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/dimensions/width","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/width"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/height","targetfield":"height","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/dimensions/height","expression":"$Input_vp_json_specification_file/Root/products/dimensions/height","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"height","sourcefielddisplayname":"height","sourcefieldpath":"/Root/products/dimensions/height","sourcerecord":"dimensions","id":"Mapping-8"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/dimensions/height","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/height"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/tags","targetfield":"tags","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/tags","expression":"$Input_vp_json_specification_file/Root/products/tags","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"tags","sourcefielddisplayname":"tags","sourcefieldpath":"/Root/products/tags","sourcerecord":"products","id":"Mapping-9"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/tags","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/tags"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/available","targetfield":"available","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/available","expression":"$Input_vp_json_specification_file/Root/products/available","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"available","sourcefielddisplayname":"available","sourcefieldpath":"/Root/products/available","sourcerecord":"products","id":"Mapping-10"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/available","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/available"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/releaseDate","targetfield":"releaseDate","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/releaseDate","expression":"$Input_vp_json_specification_file/Root/products/releaseDate","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"releaseDate","sourcefielddisplayname":"releaseDate","sourcefieldpath":"/Root/products/releaseDate","sourcerecord":"products","id":"Mapping-11"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/releaseDate","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/releaseDate"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/categoryId","targetfield":"categoryId","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/category/categoryId","expression":"$Input_vp_json_specification_file/Root/products/category/categoryId","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"categoryId","sourcefielddisplayname":"categoryId","sourcefieldpath":"/Root/products/category/categoryId","sourcerecord":"category","id":"Mapping-12"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/category/categoryId","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/categoryId"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record/categoryName","targetfield":"categoryName","targetrecord":"Record","expressionPath":"$Input_vp_json_specification_file/Root/products/category/categoryName","expression":"$Input_vp_json_specification_file/Root/products/category/categoryName","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"categoryName","sourcefielddisplayname":"categoryName","sourcefieldpath":"/Root/products/category/categoryName","sourcerecord":"category","id":"Mapping-13"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products/category/categoryName","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record/categoryName"},{"order":1,"targetName":"Drv_text_layout","targetfieldpath":"/Root/Record","targetfield":"Record","targetrecord":"Root","expressionPath":"$Input_vp_json_specification_file/Root/products","expression":"$Input_vp_json_specification_file/Root/products","mapping":[{"sourceName":"vp_json_specification_file","operatortype":"field","sourcefield":"products","sourcefielddisplayname":"products","sourcefieldpath":"/Root/products","sourcerecord":"Root","id":"Mapping-14"}],"suggestedValue":"$Input_vp_json_specification_file/Root/products","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"Drv_text_layout/Root/Record"}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_id><![CDATA[172020003021175084495764800010]]></au_id>
+        <au_creationDate><![CDATA[2025-06-25T09:49:18]]></au_creationDate>
+        <au_sourceSchema><![CDATA[JSONSchema:172020003022175083317380900014]]></au_sourceSchema>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+<mappingVersion>6.1</mappingVersion>
+<mappingName>vp_json_specificationFile_to_text_DM</mappingName>
+<mappingProject>Project:11750844090983</mappingProject>
+<mappingDescription>vp_json_specificationFile_to_text_DM</mappingDescription>
+<sourceSchemaID>JSONSchema:172020003022175083317380900014</sourceSchemaID>
+<targetSchemaID>TextSchema:172020003021175084466218400005</targetSchemaID>
+<mappingOwnerGroup>administrators</mappingOwnerGroup>
+<mappingOwner>Admin User</mappingOwner>
+<mappingLastModifiedBy>dhruv sharma</mappingLastModifiedBy>
+<mappingCreationDate>Wed Jun 25 09:49:18 UTC 2025</mappingCreationDate>
+<mappingModifiedDate>Fri Jun 27 09:05:38 UTC 2025</mappingModifiedDate>
+<reusable>true</reusable>
+</mappingInformation>
+<sourceRoots>
+<sourceRoot>
+<name>Root</name>
+<schemaName>vp_json_specification_file</schemaName>
+<schemaID>JSONSchema:172020003022175083317380900014</schemaID>
+</sourceRoot>
+</sourceRoots>
+<targetRoots>
+<targetRoot>
+<name>Root</name>
+<schemaName>Drv_text_layout</schemaName>
+<schemaID>TextSchema:172020003021175084466218400005</schemaID>
+<stream>output_1</stream>
+</targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/productId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/productId</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="productId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/productId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/productName</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/productName</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="productName">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/productName" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/price</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/price</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="price">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/price" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/description</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/description</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="description">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/description" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/stock</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/stock</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="stock">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/stock" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/length</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/dimensions/length</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="length">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/length" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/width</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/dimensions/width</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="width">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/width" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/height</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/dimensions/height</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="height">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/height" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/tags</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/tags</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="tags">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/tags" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/available</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/available</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="available">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/available" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/releaseDate</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/releaseDate</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="releaseDate">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/releaseDate" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/categoryId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/category/categoryId</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="categoryId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/categoryId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record/categoryName</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products/category/categoryName</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="categoryName">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/categoryName" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_text_layout</targetName>
+<dest>/Root/Record</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_specification_file/Root/products</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Record">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+<valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+<globalTemplate>global</globalTemplate>
+<customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+<streamingMode>false</streamingMode>
+<filterEmptyElements>false</filterEmptyElements>
+<dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+<SelfRecursionLevel>0</SelfRecursionLevel>
+<EnableTypesBuffering>true</EnableTypesBuffering>
+<CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+<consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_description><![CDATA[vp_json_specificationFile_to_text_DM]]></au_description>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="Root/products" mode="_Root_Record_order1">
+</xsl:apply-templates></Root></xsl:template><xsl:template match="/Root/products" mode="_Root_Record_order1">
+<Record><xsl:attribute name="recordNumber"></xsl:attribute><productId><xsl:value-of select="productId"/></productId><productName><xsl:value-of select="productName"/></productName><price><xsl:value-of select="price"/></price><description><xsl:value-of select="description"/></description><stock><xsl:value-of select="stock"/></stock><length><xsl:value-of select="dimensions/length"/></length><width><xsl:value-of select="dimensions/width"/></width><height><xsl:value-of select="dimensions/height"/></height><tags><xsl:value-of select="tags"/></tags><available><xsl:value-of select="available"/></available><releaseDate><xsl:value-of select="releaseDate"/></releaseDate><categoryId><xsl:value-of select="category/categoryId"/></categoryId><categoryName><xsl:value-of select="category/categoryName"/></categoryName></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules13912493902691762400.pdf]]></au_pdfFileName>
+        <au_entityName><![CDATA[vp_json_specificationFile_to_text_DM]]></au_entityName>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+    </columnInfo>
+</data>

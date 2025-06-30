@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies>
+<dependentData path="/home/sharedv3_7_5/ACM_SharedNew/web/applets/mapping/valueMap/global/Drv_valueMap.xml" type="2"></dependentData>
+<dependentData path="/home/sharedv3_7_5/ACM_SharedNew/web/applets/mapping/valueMap/global/Drv_valueMap.xsl" type="2"></dependentData>
+<dependentData path="/home/sharedv3_7_5/ACM_SharedNew/web/applets/mapping/customAutoMapData/global/Drv_CustomAutoMap.xml" type="2"></dependentData>
+</dependencies>

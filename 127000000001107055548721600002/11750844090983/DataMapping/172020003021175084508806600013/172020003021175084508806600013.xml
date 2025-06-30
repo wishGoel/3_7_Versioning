@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_modifiedBy><![CDATA[IndigoUser:11750921092058]]></au_modifiedBy>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><Root><Record><empid><xsl:value-of select="Root/Record/emp_id"/></empid><name><xsl:value-of select="Root/Record/first_name"/></name><dob><xsl:value-of select="Root/Record/dob"/></dob><amount><xsl:value-of select="Root/Record/amount"/></amount></Record></Root></Root></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_id><![CDATA[172020003021175084508806600013]]></au_id>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_entityName><![CDATA[vp_text_to_Flat_json_datamapping]]></au_entityName>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+<mappingVersion>6.1</mappingVersion>
+<mappingName>vp_text_to_Flat_json_datamapping</mappingName>
+<mappingProject>Project:11750844090983</mappingProject>
+<mappingDescription>vp_text_to_Flat_json_datamapping</mappingDescription>
+<sourceSchemaID>TextSchema:172020003022175083271092800009</sourceSchemaID>
+<targetSchemaID>JSONSchema:172020003022175083230855600002</targetSchemaID>
+<mappingOwnerGroup>administrators</mappingOwnerGroup>
+<mappingOwner>Admin User</mappingOwner>
+<mappingLastModifiedBy>Ashfaque Ahmad</mappingLastModifiedBy>
+<mappingCreationDate>Wed Jun 25 09:51:28 UTC 2025</mappingCreationDate>
+<mappingModifiedDate>Thu Jun 26 11:35:39 UTC 2025</mappingModifiedDate>
+<reusable>true</reusable>
+</mappingInformation>
+<sourceRoots>
+<sourceRoot>
+<name>Root</name>
+<schemaName>vp_json_text_target</schemaName>
+<schemaID>TextSchema:172020003022175083271092800009</schemaID>
+</sourceRoot>
+</sourceRoots>
+<targetRoots>
+<targetRoot>
+<name>Root</name>
+<schemaName>vp_json_data_source_edit</schemaName>
+<schemaID>JSONSchema:172020003022175083230855600002</schemaID>
+<stream>output_1</stream>
+</targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>vp_json_data_source_edit</targetName>
+<dest>/Root/Root/Record/dob</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_text_target/Root/Record/dob</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="dob">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Root/Record/dob" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>vp_json_data_source_edit</targetName>
+<dest>/Root/Root/Record/amount</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_text_target/Root/Record/amount</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="amount">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Root/Record/amount" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>vp_json_data_source_edit</targetName>
+<dest>/Root/Root/Record/empid</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_text_target/Root/Record/emp_id</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="empid">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Root/Record/empid" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>vp_json_data_source_edit</targetName>
+<dest>/Root/Root/Record/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_vp_json_text_target/Root/Record/first_name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="name">
+<Position height="25" identify="&lt;S&gt;" label="$Input_vp_json_text_target/Root/Record/first_name" mapString="&lt;S&gt;$Input_vp_json_text_target/Root/Record/first_name" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Root/Record/name" mapString="$Input_vp_json_text_target/Root/Record/first_name" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+<valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+<globalTemplate>global</globalTemplate>
+<customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+<streamingMode>false</streamingMode>
+<filterEmptyElements>false</filterEmptyElements>
+<dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+<SelfRecursionLevel>0</SelfRecursionLevel>
+<EnableTypesBuffering>true</EnableTypesBuffering>
+<CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+<consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_targetSchema><![CDATA[JSONSchema:172020003022175083230855600002]]></au_targetSchema>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"vp_text_to_Flat_json_datamapping","mappingProject":"Project:11750844090983","mappingDescription":"vp_text_to_Flat_json_datamapping","sourceSchemaID":"TextSchema:172020003022175083271092800009","targetSchemaID":"JSONSchema:172020003022175083230855600002","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"vp_json_data_source_edit","schemaID":"JSONSchema:172020003022175083230855600002","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"vp_json_text_target","schemaID":"TextSchema:172020003022175083271092800009"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"vp_json_data_source_edit","targetfieldpath":"/Root/Root/Record/dob","targetfield":"dob","targetrecord":"Record","expressionPath":"$Input_vp_json_text_target/Root/Record/dob","expression":"$Input_vp_json_text_target/Root/Record/dob","mapping":[{"sourceName":"vp_json_text_target","operatortype":"field","sourcefield":"dob","sourcefielddisplayname":"dob","sourcefieldpath":"/Root/Record/dob","sourcerecord":"Record","id":"Mapping-2"}],"suggestedValue":"$Input_vp_json_text_target/Root/Record/dob","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"vp_json_data_source_edit/Root/Root/Record/dob"},{"order":1,"targetName":"vp_json_data_source_edit","targetfieldpath":"/Root/Root/Record/amount","targetfield":"amount","targetrecord":"Record","expressionPath":"$Input_vp_json_text_target/Root/Record/amount","expression":"$Input_vp_json_text_target/Root/Record/amount","mapping":[{"sourceName":"vp_json_text_target","operatortype":"field","sourcefield":"amount","sourcefielddisplayname":"amount","sourcefieldpath":"/Root/Record/amount","sourcerecord":"Record","id":"Mapping-3"}],"suggestedValue":"$Input_vp_json_text_target/Root/Record/amount","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"vp_json_data_source_edit/Root/Root/Record/amount"},{"order":1,"targetName":"vp_json_data_source_edit","targetfieldpath":"/Root/Root/Record/empid","targetfield":"empid","targetrecord":"Record","expressionPath":"$Input_vp_json_text_target/Root/Record/emp_id","expression":"$Input_vp_json_text_target/Root/Record/emp_id","mapping":[{"sourceName":"vp_json_text_target","operatortype":"field","sourcefield":"emp_id","sourcefielddisplayname":"emp_id","sourcefieldpath":"/Root/Record/emp_id","sourcerecord":"Record","id":"Mapping-4"}],"suggestedValue":"$Input_vp_json_text_target/Root/Record/emp_id","confidence":"Low","namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"markComplete":false,"mapId":"vp_json_data_source_edit/Root/Root/Record/empid"},{"order":1,"targetName":"vp_json_data_source_edit","targetfield":"name","targetfieldpath":"/Root/Root/Record/name","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1750845081277","elementItem":{"elementType":"SourceElement","name":"first_name","expression":"$Input_vp_json_text_target/Root/Record/first_name","paramsCount":0,"syntax":"$Input_vp_json_text_target/Root/Record/first_name"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1750845081278_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1750845081278"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1750845081278","elementItem":{"elementType":"TargetElement","name":"name","expression":"$Input_vp_json_text_target/Root/Record/first_name","paramsCount":1,"syntax":"vp_json_data_source_edit/Root/Root/Record/name"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1750845081277"]}],"expression":"$Input_vp_json_text_target/Root/Record/first_name","targetrecord":"Record","mapping":[{"sourceName":"vp_json_text_target","operatortype":"field","sourcefield":"first_name","sourcefielddisplayname":"first_name","sourcefieldpath":"/Root/Record/first_name","sourcerecord":"Record","id":"Mapping-1"}],"markComplete":false,"mapId":"vp_json_data_source_edit/Root/Root/Record/name"}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
+        <au_modifiedDate><![CDATA[2025-06-26T11:35:39]]></au_modifiedDate>
+        <au_sourceSchema><![CDATA[TextSchema:172020003022175083271092800009]]></au_sourceSchema>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules1227857514060430363.pdf]]></au_pdfFileName>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_creationDate><![CDATA[2025-06-25T09:51:28]]></au_creationDate>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_description><![CDATA[vp_text_to_Flat_json_datamapping]]></au_description>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+    </columnInfo>
+</data>

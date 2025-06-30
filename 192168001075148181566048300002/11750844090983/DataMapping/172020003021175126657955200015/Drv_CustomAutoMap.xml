@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customAutoMapOptions><customAutoMapOption><name>Drv_CustomAutoMap
+</name><customAutoMapDetails><sourceData>Gender</sourceData><targetData>sex</targetData></customAutoMapDetails></customAutoMapOption>
+</customAutoMapOptions>

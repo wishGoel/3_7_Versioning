@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SCHEMAXML>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_selectedroot><![CDATA[null]]></au_selectedroot>
+        <au_dtdFile><![CDATA[]]></au_dtdFile>
+        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
+        <au_validateXml><![CDATA[0]]></au_validateXml>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
+        <au_entityName><![CDATA[Drv_WebMapper_xml_src_layout1]]></au_entityName>
+        <au_description><![CDATA[Drv_WebMapper_xml_src_layout1]]></au_description>
+        <au_json><![CDATA[null]]></au_json>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modifiedDate><![CDATA[2025-06-30T05:32:22]]></au_modifiedDate>
+        <xsdType><![CDATA[]]></xsdType>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+    <EmployeeID>EMP1045</EmployeeID>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <FullName>John Doe</FullName>
+    <DateOfBirth>1990-01-15</DateOfBirth>
+    <Gender>Male</Gender>
+    <Email>john.doe@example.com</Email>
+    <PhoneNumber>+91-9876543210</PhoneNumber>
+    <AlternatePhone>+91-9123456780</AlternatePhone>
+    <AddressLine1>123 Main Street</AddressLine1>
+    <AddressLine2>Apt 4B</AddressLine2>
+    <City>New Delhi</City>
+    <State>Delhi</State>
+    <PostalCode>110001</PostalCode>
+    <Country>India</Country>
+    <Nationality>Indian</Nationality>
+    <AadharNumber>1234-5678-9012</AadharNumber>
+    <PANNumber>ABCDE1234F</PANNumber>
+    <MaritalStatus>Single</MaritalStatus>
+    <BloodGroup>O+</BloodGroup>
+    <EmergencyContactName>Jane Doe</EmergencyContactName>
+    <EmergencyContactNumber>+91-9988776655</EmergencyContactNumber>
+    <Department>Engineering</Department>
+    <Designation>Software Engineer</Designation>
+    <EmployeeType>Permanent</EmployeeType>
+    <JoiningDate>2020-07-01</JoiningDate>
+    <WorkLocation>Bangalore</WorkLocation>
+    <Shift>Day</Shift>
+    <ManagerID>EMP1001</ManagerID>
+    <ManagerName>Priya Sharma</ManagerName>
+    <CTC>1200000</CTC>
+    <BasicSalary>600000</BasicSalary>
+    <HRA>300000</HRA>
+    <OtherAllowances>300000</OtherAllowances>
+    <BankName>State Bank of India</BankName>
+    <BankAccountNumber>123456789012</BankAccountNumber>
+    <IFSCCode>SBIN0001234</IFSCCode>
+    <UAN>123456789012</UAN>
+    <ESICNumber>ESIC00112233</ESICNumber>
+    <PFNumber>PF987654321</PFNumber>
+    <IsActive>true</IsActive>
+    <LastWorkingDate></LastWorkingDate>
+    <ExperienceInYears>5</ExperienceInYears>
+    <PreviousCompany>ABC Corp</PreviousCompany>
+    <HighestQualification>M.Tech</HighestQualification>
+    <UniversityName>IIT Delhi</UniversityName>
+    <Skills>Java, Python, SQL</Skills>
+    <Certifications>OCP, AWS</Certifications>
+    <LanguageKnown>English, Hindi</LanguageKnown>
+    <ModeOfTransport>Own Vehicle</ModeOfTransport>
+</Employee>
+]]></au_xsd>
+        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
+        <au_wsMessageCallID><![CDATA[]]></au_wsMessageCallID>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <providerXsdType><![CDATA[]]></providerXsdType>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
+        <au_xmlValidator><![CDATA[Saxonica]]></au_xmlValidator>
+        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
+        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
+        <au_creationDate><![CDATA[2025-06-30T05:32:22]]></au_creationDate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <AU_SYSTEMRELEASE><![CDATA[null]]></AU_SYSTEMRELEASE>
+        <AU_DEFFMODE><![CDATA[null]]></AU_DEFFMODE>
+        <au_dtdFilePath><![CDATA[C:\fakepath\employee_sample_src.xml]]></au_dtdFilePath>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
+        <au_frevvoXsd><![CDATA[]]></au_frevvoXsd>
+        <au_convertToXSD><![CDATA[0]]></au_convertToXSD>
+        <xsdName><![CDATA[null]]></xsdName>
+        <au_wsProviderID><![CDATA[]]></au_wsProviderID>
+        <AU_APPRELEASE><![CDATA[null]]></AU_APPRELEASE>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_id><![CDATA[172020003021175126154196900002]]></au_id>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
+    </AU_SCHEMAXML>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_dtdFilePath" type="12"/>
+        <column name="au_convertToXSD" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_xmlSchemaVersion" type="12"/>
+        <column name="au_fileReferencesID" type="12"/>
+        <column name="au_dtdFile" type="-1"/>
+        <column name="au_validateXml" type="3"/>
+        <column name="au_wsMessageCallID" type="12"/>
+        <column name="au_wsProviderID" type="12"/>
+        <column name="au_jcaAdapterID" type="12"/>
+        <column name="xsdType" type="12"/>
+        <column name="providerXsdType" type="12"/>
+        <column name="xsdName" type="12"/>
+        <column name="au_frevvoXsd" type="12"/>
+        <column name="AU_XMLSCHEMATYPE" type="12"/>
+        <column name="AU_DEFFMODE" type="12"/>
+        <column name="AU_IDOCOBJTYPE" type="12"/>
+        <column name="AU_IDOCEXT" type="12"/>
+        <column name="au_selectedroot" type="12"/>
+        <column name="au_xmlValidator" type="12"/>
+        <column name="AU_IDOCTYPE" type="12"/>
+        <column name="AU_SYSTEMRELEASE" type="12"/>
+        <column name="AU_APPRELEASE" type="12"/>
+        <column name="AU_SAPCLIENT" type="12"/>
+    </columnInfo>
+</data>

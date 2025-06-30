@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_StoredProcedure>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_id><![CDATA[172020003022175127535056500008]]></au_id>
+        <au_description><![CDATA[Drv_Strored_Procedure]]></au_description>
+        <au_json><![CDATA[{"resultSets":[""],"outParmas":[{"parameterName":"result_val","dataType":"INT|4","type":"Value"}],"inOutParmas":[]}]]></au_json>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_spName><![CDATA[AddTwoToInput]]></au_spName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_packageName><![CDATA[]]></au_packageName>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_storedProcedureInOutParams><![CDATA[]]></au_storedProcedureInOutParams>
+        <au_storedProcedureOutParams><![CDATA[result_val INT|4 ]]></au_storedProcedureOutParams>
+        <au_version><![CDATA[1]]></au_version>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="StoredProcedure">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="resultSets" minOccurs="1" maxOccurs="1" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<format>AAAAAAA</format>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+<xs:element name="outParams" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="result_val" minOccurs="1" maxOccurs="1" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<format>AAAAAAA</format>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+
+</xs:sequence>
+</xs:complexType>
+</xs:element><xs:element name="inOutParams" minOccurs="1" maxOccurs="1" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<format>AAAAAAA</format>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+<xs:element name="returnValue" minOccurs="1" maxOccurs="1" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<format>AAAAAAA</format>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>]]></au_xsd>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <au_modifiedDate><![CDATA[2025-06-30T09:22:31]]></au_modifiedDate>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003021175126470708200004]]></au_dbConnectionInfoId>
+        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
+        <au_creationDate><![CDATA[2025-06-30T09:22:31]]></au_creationDate>
+        <au_outputMode><![CDATA[Context Parameters]]></au_outputMode>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[Drv_Strored_Procedure]]></au_entityName>
+        <au_storedProcedureInParams><![CDATA[input_val INT|4 ]]></au_storedProcedureInParams>
+    </AU_StoredProcedure>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_dbConnectionInfoId" type="12"/>
+        <column name="au_spName" type="12"/>
+        <column name="au_packageName" type="12"/>
+        <column name="au_outputMode" type="12"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="au_storedProcedureInParams" type="12"/>
+        <column name="au_storedProcedureOutParams" type="12"/>
+        <column name="au_storedProcedureInOutParams" type="12"/>
+    </columnInfo>
+</data>
