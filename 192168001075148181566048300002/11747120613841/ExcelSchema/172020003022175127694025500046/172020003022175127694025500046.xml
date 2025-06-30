@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EXCELSCHEMA>
+        <au_json><![CDATA[null]]></au_json>
+        <au_description><![CDATA[partner_excel_layout]]></au_description>
+        <au_filterBlankRow><![CDATA[0]]></au_filterBlankRow>
+        <au_decryptSecretKey><![CDATA[]]></au_decryptSecretKey>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_startColumnNumber><![CDATA[1]]></au_startColumnNumber>
+        <xsdFilePath><![CDATA[]]></xsdFilePath>
+        <au_entityName><![CDATA[partner_excel_layout]]></au_entityName>
+        <au_advanceXsd><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:complexType name="parentType"><xs:sequence>
+<xs:element name="First_Name" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]First_Name[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Last_Name" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]Last_Name[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]City[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="State" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]State[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Mobile" minOccurs="0" maxOccurs="1" type="xs:integer">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]Mobile[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+
+
+<xs:element name="DependentRecords" type="recordType"/></xs:sequence>
+<xs:attribute name="recordNumber" type="xs:string" use="required"/>
+</xs:complexType>
+<xs:complexType name="recordType">
+<xs:sequence>
+<xs:element name="First_Name" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]First_Name[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Last_Name" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]Last_Name[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]City[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="State" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]State[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Mobile" minOccurs="0" maxOccurs="1" type="xs:integer">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]Mobile[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+
+</xs:sequence><xs:attribute name="recordNumber" type="xs:string" use="required"/></xs:complexType>
+<xs:element name="HierarchicalRoot"><xs:complexType><xs:sequence><xs:element name="ParentRecords" type="parentType"/></xs:sequence></xs:complexType></xs:element>
+<xs:element name="Root"><xs:complexType><xs:sequence><xs:element name="Record" type="recordType"/></xs:sequence></xs:complexType></xs:element>
+</xs:schema>]]></au_advanceXsd>
+        <au_modifiedDate><![CDATA[2025-06-30T09:49]]></au_modifiedDate>
+        <au_advancedSchema><![CDATA[0]]></au_advancedSchema>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_encryptSecretKey><![CDATA[]]></au_encryptSecretKey>
+        <au_userOwner><![CDATA[IndigoUser:11751007799235]]></au_userOwner>
+        <au_creationDate><![CDATA[2025-06-30T09:49]]></au_creationDate>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!-- W3C Schema generated by Adeptia Editor  -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Root">
+		<xs:annotation>
+			<xs:appinfo>
+				<XSDVersion>1</XSDVersion>
+				<Sheets>U2hlZXQx</Sheets>
+				<allowDiscontinousOrder>false</allowDiscontinousOrder>			
+				<allowIgnoreCase>false</allowIgnoreCase>			
+				<allowLessFields>false</allowLessFields>			
+				<restrictMoreFields>false</restrictMoreFields>			
+				<headersValidation>false</headersValidation>			
+				<removeInvalidChar>false</removeInvalidChar>			
+				<manipulated>false</manipulated>			
+				<enclosedChar></enclosedChar>			
+				<advanceExcel>false</advanceExcel>			
+				<mergeKey></mergeKey>			
+				<isEncodedSheetName>true</isEncodedSheetName>			
+				<processAllSheets>false</processAllSheets>			
+				<mergeCriteria></mergeCriteria>			
+				<processErrorValues>false</processErrorValues>			
+				<formatCellFormulaValue>true</formatCellFormulaValue>			
+			<sheetXml><SheetElements><sheet name="U2hlZXQx" row="1" col="A"><column><Name>First_Name</Name><OriginalName>[ABPM_._ESCAPE_._CDATA_._START]First_Name[ABPM_._ESCAPE_._CDATA_._END]</OriginalName><DataType>string</DataType><DateFormat> </DateFormat><TimeFormat></TimeFormat><DataFormat>PlainText</DataFormat></column><column><Name>Last_Name</Name><OriginalName>[ABPM_._ESCAPE_._CDATA_._START]Last_Name[ABPM_._ESCAPE_._CDATA_._END]</OriginalName><DataType>string</DataType><DateFormat> </DateFormat><TimeFormat></TimeFormat><DataFormat>PlainText</DataFormat></column><column><Name>City</Name><OriginalName>[ABPM_._ESCAPE_._CDATA_._START]City[ABPM_._ESCAPE_._CDATA_._END]</OriginalName><DataType>string</DataType><DateFormat> </DateFormat><TimeFormat></TimeFormat><DataFormat>PlainText</DataFormat></column><column><Name>State</Name><OriginalName>[ABPM_._ESCAPE_._CDATA_._START]State[ABPM_._ESCAPE_._CDATA_._END]</OriginalName><DataType>string</DataType><DateFormat> </DateFormat><TimeFormat></TimeFormat><DataFormat>PlainText</DataFormat></column><column><Name>Mobile</Name><OriginalName>[ABPM_._ESCAPE_._CDATA_._START]Mobile[ABPM_._ESCAPE_._CDATA_._END]</OriginalName><DataType>int</DataType><DateFormat> </DateFormat><TimeFormat></TimeFormat><DataFormat>PlainText</DataFormat></column></sheet></SheetElements></sheetXml>			
+</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Record" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType><xs:sequence>
+<xs:element name="First_Name" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]First_Name[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Last_Name" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]Last_Name[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]City[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="State" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]State[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Mobile" minOccurs="0" maxOccurs="1" type="xs:integer">
+<xs:annotation><xs:appinfo><format>AAAAAAA</format> <parent> </parent>
+						<dataMode>plainText</dataMode><originalName>[ABPM_._ESCAPE_._CDATA_._START]Mobile[ABPM_._ESCAPE_._CDATA_._END]</originalName></xs:appinfo></xs:annotation></xs:element>
+
+</xs:sequence>
+<xs:attribute name="recordNumber" type="xs:string" use="required"/>
+</xs:complexType></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>]]></au_xsd>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_enableStreaming><![CDATA[0]]></au_enableStreaming>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_version><![CDATA[1]]></au_version>
+        <au_projectOwner><![CDATA[Project:11747120613841]]></au_projectOwner>
+        <au_headerPresent><![CDATA[1]]></au_headerPresent>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_unstructuredDataType><![CDATA[null]]></au_unstructuredDataType>
+        <au_passwordProtected><![CDATA[0]]></au_passwordProtected>
+        <au_advancedExcel><![CDATA[0]]></au_advancedExcel>
+        <au_processAllSheets><![CDATA[0]]></au_processAllSheets>
+        <au_modifiedBy><![CDATA[IndigoUser:11751007799235]]></au_modifiedBy>
+        <au_id><![CDATA[172020003022175127694025500046]]></au_id>
+        <au_startRowNumber><![CDATA[1]]></au_startRowNumber>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_password><![CDATA[]]></au_password>
+    </AU_EXCELSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_advancedSchema" type="3"/>
+        <column name="au_advancedExcel" type="3"/>
+        <column name="au_processAllSheets" type="3"/>
+        <column name="au_headerPresent" type="3"/>
+        <column name="au_startRowNumber" type="4"/>
+        <column name="au_startColumnNumber" type="4"/>
+        <column name="au_encryptSecretKey" type="12"/>
+        <column name="au_decryptSecretKey" type="12"/>
+        <column name="au_advanceXsd" type="-1"/>
+        <column name="au_passwordProtected" type="3"/>
+        <column name="au_password" type="12"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_filterBlankRow" type="3"/>
+        <column name="au_unstructuredDataType" type="12"/>
+        <column name="au_enableStreaming" type="3"/>
+    </columnInfo>
+</data>
