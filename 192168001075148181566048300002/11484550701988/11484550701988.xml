@@ -2,23 +2,23 @@
 <data>
     <AU_PROJECT>
         <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_modifiedBy><![CDATA[IndigoUser:11747125161074]]></au_modifiedBy>
-        <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_description><![CDATA[Project_1]]></au_description>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
         <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_revision><![CDATA[e7511f402fb465fed7feebd13e156c59478d5eea]]></au_revision>
-        <au_id><![CDATA[11484550701988]]></au_id>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
-        <au_userOwner><![CDATA[IndigoUser:11747125161074]]></au_userOwner>
-        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_modifiedBy><![CDATA[IndigoUser:11747125161074]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[b275e199b752a5d76ea7b9fda03876da19d7c8d5]]></au_revision>
+        <au_id><![CDATA[11484550701988]]></au_id>
+        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
+        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
         <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_userOwner><![CDATA[IndigoUser:11747125161074]]></au_userOwner>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_description><![CDATA[Project_1]]></au_description>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_projectType><![CDATA[3700]]></au_projectType>
+        <au_comments><![CDATA[null]]></au_comments>
     </AU_PROJECT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
