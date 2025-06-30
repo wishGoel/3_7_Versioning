@@ -1,38 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_SCHEMAXML>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_creationDate><![CDATA[2025-06-30T05:32:58]]></au_creationDate>
         <AU_APPRELEASE><![CDATA[null]]></AU_APPRELEASE>
-        <au_wsMessageCallID><![CDATA[]]></au_wsMessageCallID>
-        <au_modifiedDate><![CDATA[2025-06-30T05:32:58]]></au_modifiedDate>
-        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
-        <au_version><![CDATA[1]]></au_version>
-        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
-        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
-        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
-        <xsdName><![CDATA[null]]></xsdName>
-        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
-        <au_selectedroot><![CDATA[null]]></au_selectedroot>
-        <au_revision><![CDATA[d12c203f3896c20445b26b59aa08286db6fb95e9]]></au_revision>
-        <providerXsdType><![CDATA[]]></providerXsdType>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <au_xmlValidator><![CDATA[Saxonica]]></au_xmlValidator>
-        <au_dtdFilePath><![CDATA[C:\fakepath\employee_sample_trgt.xml]]></au_dtdFilePath>
-        <au_wsProviderID><![CDATA[]]></au_wsProviderID>
-        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
+        <au_creationDate><![CDATA[2025-06-30T05:32:58]]></au_creationDate>
+        <AU_DEFFMODE><![CDATA[null]]></AU_DEFFMODE>
+        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_revision><![CDATA[d1bb5d317067f5b248ab4011e9e59833928b1314]]></au_revision>
         <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_json><![CDATA[null]]></au_json>
-        <xsdType><![CDATA[]]></xsdType>
-        <au_id><![CDATA[172020003021175126157840200004]]></au_id>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
         <au_validateXml><![CDATA[0]]></au_validateXml>
-        <au_dtdFile><![CDATA[]]></au_dtdFile>
-        <au_convertToXSD><![CDATA[0]]></au_convertToXSD>
+        <providerXsdType><![CDATA[]]></providerXsdType>
+        <xsdName><![CDATA[null]]></xsdName>
         <au_description><![CDATA[Drv_WebMapper_xml_trgt_layout1]]></au_description>
-        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
+        <au_dtdFilePath><![CDATA[C:\fakepath\employee_sample_trgt.xml]]></au_dtdFilePath>
+        <au_id><![CDATA[172020003021175126157840200004]]></au_id>
+        <au_dtdFile><![CDATA[]]></au_dtdFile>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <EmployeeRecord>
     <EmpID>EMP1045</EmpID>
@@ -87,17 +72,32 @@
     <TransportMode>Own Vehicle</TransportMode>
 </EmployeeRecord>
 ]]></au_xsd>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_entityName><![CDATA[Drv_WebMapper_xml_trgt_layout1]]></au_entityName>
-        <AU_DEFFMODE><![CDATA[null]]></AU_DEFFMODE>
-        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
-        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
-        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
-        <au_frevvoXsd><![CDATA[]]></au_frevvoXsd>
-        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
+        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
+        <au_wsProviderID><![CDATA[]]></au_wsProviderID>
         <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
         <AU_SYSTEMRELEASE><![CDATA[null]]></AU_SYSTEMRELEASE>
+        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_frevvoXsd><![CDATA[]]></au_frevvoXsd>
+        <au_wsMessageCallID><![CDATA[]]></au_wsMessageCallID>
+        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
+        <au_selectedroot><![CDATA[null]]></au_selectedroot>
+        <au_convertToXSD><![CDATA[0]]></au_convertToXSD>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_entityName><![CDATA[Drv_WebMapper_xml_trgt_layout1]]></au_entityName>
+        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
+        <au_modifiedDate><![CDATA[2025-06-30T05:32:58]]></au_modifiedDate>
+        <xsdType><![CDATA[]]></xsdType>
+        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_version><![CDATA[1]]></au_version>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_json><![CDATA[null]]></au_json>
+        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
+        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
     </AU_SCHEMAXML>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

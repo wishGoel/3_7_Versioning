@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_StoredProcedure>
-        <au_json><![CDATA[{"resultSets":[""],"outParmas":[{"parameterName":"result_val","dataType":"INT|4","type":"Value"}],"inOutParmas":[]}]]></au_json>
-        <au_packageName><![CDATA[]]></au_packageName>
-        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
-        <au_storedProcedureInParams><![CDATA[input_val INT|4 ]]></au_storedProcedureInParams>
-        <au_spName><![CDATA[AddTwoToInput]]></au_spName>
-        <au_outputMode><![CDATA[Context Parameters]]></au_outputMode>
-        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2025-06-30T09:22:31]]></au_creationDate>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_version><![CDATA[1]]></au_version>
-        <au_id><![CDATA[172020003022175127535056500008]]></au_id>
-        <au_revision><![CDATA[d12c203f3896c20445b26b59aa08286db6fb95e9]]></au_revision>
-        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
-        <au_description><![CDATA[Drv_Strored_Procedure]]></au_description>
-        <au_dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003021175126470708200004]]></au_dbConnectionInfoId>
-        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
-        <au_comments><![CDATA[null]]></au_comments>
         <au_storedProcedureInOutParams><![CDATA[]]></au_storedProcedureInOutParams>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_entityName><![CDATA[Drv_Strored_Procedure]]></au_entityName>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
         <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_creationDate><![CDATA[2025-06-30T09:22:31]]></au_creationDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003021175126470708200004]]></au_dbConnectionInfoId>
+        <au_entityName><![CDATA[Drv_Strored_Procedure]]></au_entityName>
+        <au_storedProcedureOutParams><![CDATA[result_val INT|4 ]]></au_storedProcedureOutParams>
+        <au_version><![CDATA[1]]></au_version>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <xs:element name="StoredProcedure">
@@ -68,8 +53,23 @@
 </xs:complexType>
 </xs:element>
 </xs:schema>]]></au_xsd>
-        <au_storedProcedureOutParams><![CDATA[result_val INT|4 ]]></au_storedProcedureOutParams>
+        <au_spName><![CDATA[AddTwoToInput]]></au_spName>
+        <au_json><![CDATA[{"resultSets":[""],"outParmas":[{"parameterName":"result_val","dataType":"INT|4","type":"Value"}],"inOutParmas":[]}]]></au_json>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_packageName><![CDATA[]]></au_packageName>
+        <au_outputMode><![CDATA[Context Parameters]]></au_outputMode>
+        <au_id><![CDATA[172020003022175127535056500008]]></au_id>
+        <au_storedProcedureInParams><![CDATA[input_val INT|4 ]]></au_storedProcedureInParams>
+        <au_userOwner><![CDATA[IndigoUser:11750914084948]]></au_userOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_description><![CDATA[Drv_Strored_Procedure]]></au_description>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[d1bb5d317067f5b248ab4011e9e59833928b1314]]></au_revision>
+        <au_projectOwner><![CDATA[Project:11750844090983]]></au_projectOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:11750914084948]]></au_modifiedBy>
         <au_modifiedDate><![CDATA[2025-06-30T09:22:31]]></au_modifiedDate>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
     </AU_StoredProcedure>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
