@@ -1,151 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
-        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
-        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
         <TYPE><![CDATA[IndigoTransaction]]></TYPE>
-        <ID><![CDATA[11751274920392]]></ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
         <SEQUENCE_TYPE><![CDATA[IndigoTransaction]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[-1]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
-        <ACTIVITY_ID><![CDATA[172020003021175101408711500045]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[[{"id":"172020003021175100829509500015","name":"mm_lan_source_27june","type":"LanFileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"mm_lan_source_27june","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE","displayName":"mm_lan_source_27june","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175084085734500005","name":"mm_text","type":"TextSchema","baseType":"SourceSchema","trigger":false,"action":false,"include":true,"label":"mm_text","serviceDisplayName":"Source Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175100829509500015","name":"mm_lan_source_27june","type":"LanFileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"mm_lan_source_27june","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE"},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":2,"formType":"TEMPLATE","displayName":"mm_text","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175102278518600095","name":"mm_routing","type":"ContentBasedRouting","baseType":"ContentBasedRouting","trigger":false,"action":false,"include":true,"label":"mm_routing","serviceDisplayName":"Content Based Routing","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175084085734500005","name":"mm_text","type":"TextSchema","baseType":"SourceSchema","trigger":false,"action":false,"include":true,"label":"mm_text","serviceDisplayName":"Source Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175100829509500015","name":"mm_lan_source_27june","type":"LanFileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"mm_lan_source_27june","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE"},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":2,"formType":"TEMPLATE"}],"sequenceId":3,"formType":"TEMPLATE","displayName":"mm_routing","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175100852399500021","name":"mm_lan_target","type":"LanFileTarget","baseType":"Target","trigger":false,"action":true,"include":true,"label":"mm_lan_target","serviceDisplayName":"Target","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":4,"formType":"TEMPLATE","displayName":"mm_lan_target","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175084085734500005","name":"mm_text_target","type":"TextSchema","baseType":"TargetSchema","trigger":false,"action":false,"include":true,"label":"mm_text_target","serviceDisplayName":"Target Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175100852399500021","name":"mm_lan_target","type":"LanFileTarget","baseType":"Target","trigger":false,"action":true,"include":true,"label":"mm_lan_target","serviceDisplayName":"Target","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":4,"formType":"TEMPLATE"},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":5,"formType":"TEMPLATE","displayName":"mm_text_target","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE","displayName":"mm_mapping_text","description":"","override":true,"triggerOrAction":false}]]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
         <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <ID><![CDATA[11751274920392]]></ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <ACTIVITY_ID><![CDATA[172020003021175101408711500045]]></ACTIVITY_ID>
         <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[-1]]></SEQUENCE_ID>
         <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[[{"id":"172020003021175100829509500015","name":"mm_lan_source_27june","type":"LanFileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"mm_lan_source_27june","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE","displayName":"mm_lan_source_27june","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175084085734500005","name":"mm_text","type":"TextSchema","baseType":"SourceSchema","trigger":false,"action":false,"include":true,"label":"mm_text","serviceDisplayName":"Source Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175100829509500015","name":"mm_lan_source_27june","type":"LanFileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"mm_lan_source_27june","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE"},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":2,"formType":"TEMPLATE","displayName":"mm_text","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175102278518600095","name":"mm_routing","type":"ContentBasedRouting","baseType":"ContentBasedRouting","trigger":false,"action":false,"include":true,"label":"mm_routing","serviceDisplayName":"Content Based Routing","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175084085734500005","name":"mm_text","type":"TextSchema","baseType":"SourceSchema","trigger":false,"action":false,"include":true,"label":"mm_text","serviceDisplayName":"Source Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175100829509500015","name":"mm_lan_source_27june","type":"LanFileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"mm_lan_source_27june","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE"},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":2,"formType":"TEMPLATE"}],"sequenceId":3,"formType":"TEMPLATE","displayName":"mm_routing","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175100852399500021","name":"mm_lan_target","type":"LanFileTarget","baseType":"Target","trigger":false,"action":true,"include":true,"label":"mm_lan_target","serviceDisplayName":"Target","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":4,"formType":"TEMPLATE","displayName":"mm_lan_target","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175084085734500005","name":"mm_text_target","type":"TextSchema","baseType":"TargetSchema","trigger":false,"action":false,"include":true,"label":"mm_text_target","serviceDisplayName":"Target Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"172020003021175100852399500021","name":"mm_lan_target","type":"LanFileTarget","baseType":"Target","trigger":false,"action":true,"include":true,"label":"mm_lan_target","serviceDisplayName":"Target","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":4,"formType":"TEMPLATE"},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":5,"formType":"TEMPLATE","displayName":"mm_text_target","description":"","override":true,"triggerOrAction":false},{"id":"172020003021175100840100100018","name":"mm_mapping_text","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"mm_mapping_text","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE","displayName":"mm_mapping_text","description":"","override":true,"triggerOrAction":false}]]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
     </AC_TEMPLATE_METADATA>
     <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
-        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
-        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
         <TYPE><![CDATA[FileEvent]]></TYPE>
-        <ID><![CDATA[11751274920434]]></ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
         <SEQUENCE_TYPE><![CDATA[Trigger]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
-        <ACTIVITY_ID><![CDATA[172020003022175128581769200170]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
         <ALIAS_NAME><![CDATA[mm_lan_source_27june]]></ALIAS_NAME>
+        <ID><![CDATA[11751274920434]]></ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <ACTIVITY_ID><![CDATA[172020003022175128581769200170]]></ACTIVITY_ID>
         <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
         <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
     </AC_TEMPLATE_METADATA>
     <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
-        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
-        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
         <TYPE><![CDATA[TextSchema]]></TYPE>
-        <ID><![CDATA[11751274920435]]></ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
         <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
-        <ACTIVITY_ID><![CDATA[172020003021175126617220900011]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
         <ALIAS_NAME><![CDATA[mm_text]]></ALIAS_NAME>
-        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
-        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
-    </AC_TEMPLATE_METADATA>
-    <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <ID><![CDATA[11751274920435]]></ID>
         <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
-        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
-        <TYPE><![CDATA[ContentBasedRouting]]></TYPE>
-        <ID><![CDATA[11751274920446]]></ID>
-        <SEQUENCE_TYPE><![CDATA[Routing]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
-        <ACTIVITY_ID><![CDATA[172020003022175128594287400172]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
-        <ALIAS_NAME><![CDATA[mm_routing]]></ALIAS_NAME>
-        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
-        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
-    </AC_TEMPLATE_METADATA>
-    <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
-        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
-        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
-        <TYPE><![CDATA[LanFileTarget]]></TYPE>
-        <ID><![CDATA[11751274920452]]></ID>
-        <SEQUENCE_TYPE><![CDATA[Action]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
-        <ACTIVITY_ID><![CDATA[172020003021175100852399500021]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
-        <ALIAS_NAME><![CDATA[mm_lan_target]]></ALIAS_NAME>
-        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
-        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
-    </AC_TEMPLATE_METADATA>
-    <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
-        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
-        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
-        <TYPE><![CDATA[TextSchema]]></TYPE>
-        <ID><![CDATA[11751274920455]]></ID>
-        <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
         <ACTIVITY_ID><![CDATA[172020003021175126617220900011]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
-        <ALIAS_NAME><![CDATA[mm_text_target]]></ALIAS_NAME>
         <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
         <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
     </AC_TEMPLATE_METADATA>
     <AC_TEMPLATE_METADATA>
-        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
-        <APP_TYPE><![CDATA[null]]></APP_TYPE>
-        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
-        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
-        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <TYPE><![CDATA[ContentBasedRouting]]></TYPE>
         <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
-        <TYPE><![CDATA[DataMapping]]></TYPE>
-        <ID><![CDATA[11751274920459]]></ID>
-        <SEQUENCE_TYPE><![CDATA[Mapping]]></SEQUENCE_TYPE>
-        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
-        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
-        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
-        <ACTIVITY_ID><![CDATA[172020003021175126624408300012]]></ACTIVITY_ID>
-        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
-        <OPERATION><![CDATA[null]]></OPERATION>
-        <ALIAS_NAME><![CDATA[mm_mapping_text]]></ALIAS_NAME>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <SEQUENCE_TYPE><![CDATA[Routing]]></SEQUENCE_TYPE>
+        <ALIAS_NAME><![CDATA[mm_routing]]></ALIAS_NAME>
+        <ID><![CDATA[11751274920446]]></ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <ACTIVITY_ID><![CDATA[172020003022175128594287400172]]></ACTIVITY_ID>
         <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
-        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
         <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TYPE><![CDATA[LanFileTarget]]></TYPE>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <SEQUENCE_TYPE><![CDATA[Action]]></SEQUENCE_TYPE>
+        <ALIAS_NAME><![CDATA[mm_lan_target]]></ALIAS_NAME>
+        <ID><![CDATA[11751274920452]]></ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <ACTIVITY_ID><![CDATA[172020003021175100852399500021]]></ACTIVITY_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TYPE><![CDATA[TextSchema]]></TYPE>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
+        <ALIAS_NAME><![CDATA[mm_text_target]]></ALIAS_NAME>
+        <ID><![CDATA[11751274920455]]></ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <ACTIVITY_ID><![CDATA[172020003021175126617220900011]]></ACTIVITY_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TYPE><![CDATA[DataMapping]]></TYPE>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[11751274920383]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <SEQUENCE_TYPE><![CDATA[Mapping]]></SEQUENCE_TYPE>
+        <ALIAS_NAME><![CDATA[mm_mapping_text]]></ALIAS_NAME>
+        <ID><![CDATA[11751274920459]]></ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <ACTIVITY_ID><![CDATA[172020003021175126624408300012]]></ACTIVITY_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
     </AC_TEMPLATE_METADATA>
     <columnInfo dbtype="4">
         <column name="ID" type="-5"/>

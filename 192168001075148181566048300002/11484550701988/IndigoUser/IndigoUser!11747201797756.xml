@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_USERS>
-        <AU_READ_ONLY_ACCESS><![CDATA[null]]></AU_READ_ONLY_ACCESS>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_mobile><![CDATA[null]]></au_mobile>
-        <au_entityName><![CDATA[mumukshu27]]></au_entityName>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_lastLogin><![CDATA[1751348235934]]></au_lastLogin>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_userPermission><![CDATA[7]]></au_userPermission>
-        <au_comment><![CDATA[null]]></au_comment>
-        <AU_LASTMESSAGEVIEWED><![CDATA[2025-06-30T11:52:57]]></AU_LASTMESSAGEVIEWED>
-        <au_sendEmail><![CDATA[0]]></au_sendEmail>
-        <au_email><![CDATA[mumukshu@yopmail.com]]></au_email>
-        <au_address2><![CDATA[null]]></au_address2>
-        <au_userType><![CDATA[groupadmin]]></au_userType>
-        <au_keystorePassword><![CDATA[null]]></au_keystorePassword>
-        <au_colleague><![CDATA[null]]></au_colleague>
-        <au_zip><![CDATA[null]]></au_zip>
-        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
-        <au_lastName><![CDATA[IT]]></au_lastName>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_state><![CDATA[null]]></au_state>
         <au_manager><![CDATA[null]]></au_manager>
-        <au_webDavFolder><![CDATA[null]]></au_webDavFolder>
+        <PARTNER_OWNER><![CDATA[1]]></PARTNER_OWNER>
+        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
+        <au_lastName><![CDATA[IT]]></au_lastName>
+        <AU_LASTMESSAGEVIEWED><![CDATA[2025-06-30T11:52:57]]></AU_LASTMESSAGEVIEWED>
+        <au_orgUrl><![CDATA[null]]></au_orgUrl>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_entityName><![CDATA[mumukshu27]]></au_entityName>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_userPermission><![CDATA[7]]></au_userPermission>
+        <au_city><![CDATA[null]]></au_city>
+        <au_creationDate><![CDATA[2025-05-14T06:43:22]]></au_creationDate>
+        <au_orgName><![CDATA[null]]></au_orgName>
+        <au_privateKeyPassword><![CDATA[null]]></au_privateKeyPassword>
+        <au_comment><![CDATA[null]]></au_comment>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_calendar><![CDATA[null]]></au_calendar>
+        <au_mobile><![CDATA[null]]></au_mobile>
+        <au_title><![CDATA[null]]></au_title>
+        <au_version><![CDATA[1]]></au_version>
+        <au_colleague><![CDATA[null]]></au_colleague>
+        <au_country><![CDATA[null]]></au_country>
+        <au_address2><![CDATA[null]]></au_address2>
+        <AU_READ_ONLY_ACCESS><![CDATA[null]]></AU_READ_ONLY_ACCESS>
+        <au_zip><![CDATA[null]]></au_zip>
+        <au_keystorePassword><![CDATA[null]]></au_keystorePassword>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_description><![CDATA[mumukshu@yopmail.com]]></au_description>
+        <au_primaryGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_primaryGroup>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
         <AU_UNIQUEIDENTIFIER><![CDATA[null]]></AU_UNIQUEIDENTIFIER>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
         <au_id><![CDATA[11747201797756]]></au_id>
         <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_description><![CDATA[mumukshu@yopmail.com]]></au_description>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
-        <PARTNER_OWNER><![CDATA[1]]></PARTNER_OWNER>
-        <au_certificateStatus><![CDATA[false]]></au_certificateStatus>
-        <au_primaryGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_primaryGroup>
-        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
-        <au_lastPasswordChanged><![CDATA[null]]></au_lastPasswordChanged>
-        <au_viewLevel><![CDATA[null]]></au_viewLevel>
-        <AU_IMAGEIDENTIFIER><![CDATA[null]]></AU_IMAGEIDENTIFIER>
         <au_fax><![CDATA[null]]></au_fax>
-        <au_creationDate><![CDATA[2025-05-14T06:43:22]]></au_creationDate>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_calendar><![CDATA[null]]></au_calendar>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_address1><![CDATA[null]]></au_address1>
-        <au_orgName><![CDATA[null]]></au_orgName>
-        <au_phone><![CDATA[null]]></au_phone>
+        <au_certificateStatus><![CDATA[false]]></au_certificateStatus>
+        <AU_IMAGEIDENTIFIER><![CDATA[null]]></AU_IMAGEIDENTIFIER>
         <au_password><![CDATA[nBoijWJitT4l0IEzRCdzbQ==]]></au_password>
-        <au_orgUrl><![CDATA[null]]></au_orgUrl>
-        <au_modifiedDate><![CDATA[2025-05-14T06:43:22]]></au_modifiedDate>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
+        <au_sendEmail><![CDATA[0]]></au_sendEmail>
+        <au_address1><![CDATA[null]]></au_address1>
         <au_firstName><![CDATA[Mumukshu]]></au_firstName>
-        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
-        <au_version><![CDATA[1]]></au_version>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_country><![CDATA[null]]></au_country>
-        <au_city><![CDATA[null]]></au_city>
-        <au_title><![CDATA[null]]></au_title>
-        <au_privateKeyPassword><![CDATA[null]]></au_privateKeyPassword>
+        <au_webDavFolder><![CDATA[null]]></au_webDavFolder>
+        <au_viewLevel><![CDATA[null]]></au_viewLevel>
+        <au_phone><![CDATA[null]]></au_phone>
+        <au_lastPasswordChanged><![CDATA[null]]></au_lastPasswordChanged>
+        <au_lastLogin><![CDATA[1751348235934]]></au_lastLogin>
+        <au_modifiedDate><![CDATA[2025-05-14T06:43:22]]></au_modifiedDate>
+        <au_state><![CDATA[null]]></au_state>
+        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
+        <au_email><![CDATA[mumukshu@yopmail.com]]></au_email>
+        <au_userType><![CDATA[groupadmin]]></au_userType>
     </AU_USERS>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

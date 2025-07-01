@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <VARIABLE_INFO><![CDATA[{"transactionVariable":[{"xtype":"textfield","grouptitle":"routing2","variableName":"routing2","allowBlank":false,"displayName":"routing2"}]}]]></VARIABLE_INFO>
-        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
-        <MODIFIED_USER><![CDATA[IndigoUser:11747201797756]]></MODIFIED_USER>
-        <REVISION><![CDATA[null]]></REVISION>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
-        <TYPE><![CDATA[504]]></TYPE>
-        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
-        <CONTACT_USER><![CDATA[mumukshu@yopmail.com]]></CONTACT_USER>
-        <DEST_ACTION><![CDATA[null]]></DEST_ACTION>
-        <STATUS><![CDATA[601]]></STATUS>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
-        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
-        <PROJECT_OWNER><![CDATA[Project:11484550701988]]></PROJECT_OWNER>
         <DESCRIPTION><![CDATA[mm_custom_outbound_template]]></DESCRIPTION>
-        <CREATION_DATE><![CDATA[2025-06-30T12:09:23]]></CREATION_DATE>
-        <CREATED_BY><![CDATA[Mumukshu IT]]></CREATED_BY>
-        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
         <IN_USE><![CDATA[null]]></IN_USE>
-        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <SRC_TRIGGER><![CDATA[null]]></SRC_TRIGGER>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
-        <MODIFIED_BY><![CDATA[Mumukshu IT]]></MODIFIED_BY>
-        <PARAMETERS_INFO><![CDATA[{"routingType":3500,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","emailNotificationFormat":"Default"}]]></PARAMETERS_INFO>
+        <MODIFIED_BY><![CDATA[Bharat Dabhade]]></MODIFIED_BY>
         <SRC_APP_TYPE><![CDATA[file:file:File]]></SRC_APP_TYPE>
-        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <DEST_ACTION><![CDATA[null]]></DEST_ACTION>
+        <REVISION><![CDATA[ff8f2dd572746ad6724c002c6c1fd7d91d62102b]]></REVISION>
+        <MODIFIED_USER><![CDATA[IndigoUser:11746596469913]]></MODIFIED_USER>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
+        <VARIABLE_INFO><![CDATA[{"transactionVariable":[{"xtype":"textfield","grouptitle":"routing2","variableName":"routing2","allowBlank":false,"displayName":"routing2"}]}]]></VARIABLE_INFO>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
         <SRC_REFERENCE_FIELD><![CDATA[null]]></SRC_REFERENCE_FIELD>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
-        <ID><![CDATA[11751274920383]]></ID>
+        <DISPLAY_NAME><![CDATA[mm_custom_outbound_template]]></DISPLAY_NAME>
+        <CREATED_BY><![CDATA[Mumukshu IT]]></CREATED_BY>
+        <PARAMETERS_INFO><![CDATA[{"routingType":3500,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","emailNotificationFormat":"Default"}]]></PARAMETERS_INFO>
+        <TYPE><![CDATA[504]]></TYPE>
+        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
         <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
         <DIRECTION><![CDATA[3201]]></DIRECTION>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <MODIFIED_DATE><![CDATA[2025-06-30T12:20:09]]></MODIFIED_DATE>
-        <DISPLAY_NAME><![CDATA[mm_custom_outbound_template]]></DISPLAY_NAME>
-        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <NAME><![CDATA[mm_custom_outbound_template]]></NAME>
-        <DEST_APP_TYPE><![CDATA[file:file:File]]></DEST_APP_TYPE>
-        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
-        <CREATED_USER><![CDATA[IndigoUser:11747201797756]]></CREATED_USER>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
         <DISPLAY_TYPE><![CDATA[504]]></DISPLAY_TYPE>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
+        <CREATED_USER><![CDATA[IndigoUser:11747201797756]]></CREATED_USER>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <SRC_TRIGGER><![CDATA[null]]></SRC_TRIGGER>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
+        <NAME><![CDATA[mm_custom_outbound_template]]></NAME>
+        <STATUS><![CDATA[601]]></STATUS>
+        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <DEST_APP_TYPE><![CDATA[file:file:File]]></DEST_APP_TYPE>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
+        <CREATION_DATE><![CDATA[2025-06-30T12:09:23]]></CREATION_DATE>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <ID><![CDATA[11751274920383]]></ID>
+        <MODIFIED_DATE><![CDATA[2025-07-01T06:55:24]]></MODIFIED_DATE>
+        <CONTACT_USER><![CDATA[mumukshu@yopmail.com]]></CONTACT_USER>
+        <PROJECT_OWNER><![CDATA[Project:11484550701988]]></PROJECT_OWNER>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="4">
         <column name="ID" type="-5"/>
