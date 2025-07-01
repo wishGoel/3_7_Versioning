@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_WEBFORM>
+        <ACCESS_LEVEL><![CDATA[3101]]></ACCESS_LEVEL>
+        <FORM_TYPE><![CDATA[2502]]></FORM_TYPE>
+        <MODIFIED_DATE><![CDATA[2025-05-16T10:58:01]]></MODIFIED_DATE>
+        <ID><![CDATA[11747373200749]]></ID>
+        <TYPE><![CDATA[2100]]></TYPE>
+        <LINK_NAME><![CDATA[link]]></LINK_NAME>
+        <MODIFIED_BY><![CDATA[IndigoUser:127000000001107055536473900001]]></MODIFIED_BY>
+        <NAME><![CDATA[Vgoel_WebForm_01]]></NAME>
+        <CREATION_DATE><![CDATA[2025-05-16T10:58:01]]></CREATION_DATE>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
+        <CUSTOM_PAGE_URL><![CDATA[abc.txt]]></CUSTOM_PAGE_URL>
+        <FREVVO_APP_ID><![CDATA[]]></FREVVO_APP_ID>
+        <FREVVO_FORM_ID><![CDATA[]]></FREVVO_FORM_ID>
+        <REVISION><![CDATA[null]]></REVISION>
+        <NAVIGATION_PATH><![CDATA[2400]]></NAVIGATION_PATH>
+        <GROUP_OWNER><![CDATA[IndigoGroup:127000000001107055548721600002]]></GROUP_OWNER>
+        <PROJECT_OWNER><![CDATA[Project:11747214604045]]></PROJECT_OWNER>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <ACTION_INFO><![CDATA[]]></ACTION_INFO>
+        <USER_OWNER><![CDATA[IndigoUser:127000000001107055536473900001]]></USER_OWNER>
+        <SCHEMA_TYPE_ID><![CDATA[null]]></SCHEMA_TYPE_ID>
+        <STATUS><![CDATA[2001]]></STATUS>
+        <DESCRIPTION><![CDATA[Vgoel_WebForm_01]]></DESCRIPTION>
+    </AC_WEBFORM>
+    <columnInfo dbtype="4">
+        <column name="ID" type="-5"/>
+        <column name="NAME" type="12"/>
+        <column name="DESCRIPTION" type="-1"/>
+        <column name="TYPE" type="4"/>
+        <column name="FREVVO_APP_ID" type="12"/>
+        <column name="FREVVO_FORM_ID" type="12"/>
+        <column name="CUSTOM_PAGE_URL" type="12"/>
+        <column name="NAVIGATION_PATH" type="4"/>
+        <column name="ACCESS_LEVEL" type="4"/>
+        <column name="FORM_TYPE" type="4"/>
+        <column name="COMPANY_ID" type="-5"/>
+        <column name="LINK_NAME" type="12"/>
+        <column name="MODIFIED_DATE" type="93"/>
+        <column name="CREATION_DATE" type="93"/>
+        <column name="USER_OWNER" type="12"/>
+        <column name="MODIFIED_BY" type="12"/>
+        <column name="GROUP_OWNER" type="12"/>
+        <column name="PROJECT_OWNER" type="12"/>
+        <column name="SCHEMA_TYPE_ID" type="12"/>
+        <column name="REVISION" type="12"/>
+        <column name="SYNCHRONIZED" type="-7"/>
+        <column name="STATUS" type="4"/>
+        <column name="ACTION_INFO" type="12"/>
+    </columnInfo>
+</data>
