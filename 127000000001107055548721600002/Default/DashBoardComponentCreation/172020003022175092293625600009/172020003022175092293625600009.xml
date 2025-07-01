@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_DASHBOARD>
-        <au_table><![CDATA[MM_BACK.STUDENT]]></au_table>
-        <au_whereClause><![CDATA[SELECT * FROM  MM_BACK.STUDENT]]></au_whereClause>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_databaseInfo><![CDATA[DatabaseConnectionInfo:172020003022175091846687600039]]></au_databaseInfo>
-        <au_column><![CDATA[]]></au_column>
         <au_componentType><![CDATA[Table Chart]]></au_componentType>
-        <au_version><![CDATA[1]]></au_version>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_description><![CDATA[bd_TableChart_Component]]></au_description>
-        <au_creationDate><![CDATA[2025-06-26T07:28:56]]></au_creationDate>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_modifiedDate><![CDATA[2025-06-26T07:33:49]]></au_modifiedDate>
         <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_id><![CDATA[172020003022175092293625600009]]></au_id>
+        <au_comments><![CDATA[null]]></au_comments>
         <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedBy><![CDATA[IndigoUser:11746596469913]]></au_modifiedBy>
+        <au_databaseInfo><![CDATA[DatabaseConnectionInfo:172020003022175091846687600039]]></au_databaseInfo>
         <au_entityName><![CDATA[bd_TableChart_Component]]></au_entityName>
+        <au_column><![CDATA[]]></au_column>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_table><![CDATA[MM_BACK.STUDENT]]></au_table>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[564ceac762095cedd2c57609125eabeb2621eb59]]></au_revision>
+        <au_modifiedDate><![CDATA[2025-07-01T06:28:07]]></au_modifiedDate>
+        <au_creationDate><![CDATA[2025-06-26T07:28:56]]></au_creationDate>
+        <au_id><![CDATA[172020003022175092293625600009]]></au_id>
+        <au_whereClause><![CDATA[SELECT * FROM  MM_BACK.STUDENT]]></au_whereClause>
+        <au_version><![CDATA[1]]></au_version>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_description><![CDATA[bd_TableChart_Component]]></au_description>
     </AU_DASHBOARD>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
