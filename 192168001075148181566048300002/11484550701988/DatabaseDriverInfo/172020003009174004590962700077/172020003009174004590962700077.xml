@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-    <AU_PROJECT>
-        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_entityName><![CDATA[Project_1]]></au_entityName>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_description><![CDATA[Project_1]]></au_description>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:11747201797756]]></au_modifiedBy>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+    <AU_DBDRIVER>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_id><![CDATA[172020003009174004590962700077]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
         <au_userOwner><![CDATA[IndigoUser:11747201797756]]></au_userOwner>
-        <au_id><![CDATA[11484550701988]]></au_id>
-        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_revision><![CDATA[dc51563476d835ca8c934e374428422d23cb30aa]]></au_revision>
-        <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
+        <au_description><![CDATA[mm_driver_postGreSQL]]></au_description>
         <au_version><![CDATA[1]]></au_version>
-    </AU_PROJECT>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_driverClassName><![CDATA[org.postgresql.Driver]]></au_driverClassName>
+        <au_entityName><![CDATA[mm_driver_postGreSQL]]></au_entityName>
+        <au_creationDate><![CDATA[2025-02-20T10:05:10]]></au_creationDate>
+        <au_modifiedDate><![CDATA[2025-06-30T12:22:54]]></au_modifiedDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <driverJarFiles><![CDATA[postgresql-42.7.4.jar,postgresql-42.7.4.jar]]></driverJarFiles>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+    </AU_DBDRIVER>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
         <column name="au_version" type="12"/>
@@ -37,7 +37,7 @@
         <column name="au_revision" type="12"/>
         <column name="au_synchronized" type="3"/>
         <column name="au_projectOwner" type="12"/>
-        <column name="au_projectGroup" type="12"/>
-        <column name="au_projectType" type="4"/>
+        <column name="driverJarFiles" type="12"/>
+        <column name="au_driverClassName" type="12"/>
     </columnInfo>
 </data>
