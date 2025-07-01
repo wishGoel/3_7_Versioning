@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
-        <ID><![CDATA[11750921610033]]></ID>
-        <MODIFIED_DATE><![CDATA[2025-06-26T08:31:43]]></MODIFIED_DATE>
-        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
         <MODIFIED_BY><![CDATA[Bharat Dabhade]]></MODIFIED_BY>
-        <NAME><![CDATA[ bd_CO_t2e_Template]]></NAME>
-        <MODIFIED_USER><![CDATA[IndigoUser:11746596469913]]></MODIFIED_USER>
-        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
         <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
-        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
-        <STATUS><![CDATA[601]]></STATUS>
-        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
-        <DIRECTION><![CDATA[3200]]></DIRECTION>
-        <DESCRIPTION><![CDATA[
-bd_CO_t2e_Template]]></DESCRIPTION>
-        <CREATED_USER><![CDATA[IndigoUser:11750921092058]]></CREATED_USER>
-        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
-        <CREATED_BY><![CDATA[Ashfaque Ahmad]]></CREATED_BY>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <DISPLAY_NAME><![CDATA[ bd_CO_t2e_Template]]></DISPLAY_NAME>
-        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[{"xtype":"account","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"},{"xtype":"sourcefilelocation","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"}]}]]></PARTNER_CONFIG_INFO>
+        <PARAMETERS_INFO><![CDATA[{"routingType":3502,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","emailNotificationFormat":"Default"}]]></PARAMETERS_INFO>
         <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
         <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
-        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
         <TYPE><![CDATA[504]]></TYPE>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
-        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
-        <REVISION><![CDATA[null]]></REVISION>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
         <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
-        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
         <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
+        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
         <PROJECT_OWNER><![CDATA[Project:11750921610017]]></PROJECT_OWNER>
+        <DIRECTION><![CDATA[3200]]></DIRECTION>
+        <MODIFIED_DATE><![CDATA[2025-06-26T08:31:43]]></MODIFIED_DATE>
+        <DISPLAY_NAME><![CDATA[ bd_CO_t2e_Template]]></DISPLAY_NAME>
+        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
         <CONTACT_USER><![CDATA[ashfaque.ahmad@adeptia.com]]></CONTACT_USER>
-        <PARAMETERS_INFO><![CDATA[{"routingType":3502,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","emailNotificationFormat":"Default"}]]></PARAMETERS_INFO>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
+        <REVISION><![CDATA[null]]></REVISION>
+        <DESCRIPTION><![CDATA[
+bd_CO_t2e_Template]]></DESCRIPTION>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
+        <CREATED_BY><![CDATA[Ashfaque Ahmad]]></CREATED_BY>
+        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
+        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <STATUS><![CDATA[601]]></STATUS>
+        <MODIFIED_USER><![CDATA[IndigoUser:11746596469913]]></MODIFIED_USER>
         <CREATION_DATE><![CDATA[2025-06-26T08:30:07]]></CREATION_DATE>
+        <CREATED_USER><![CDATA[IndigoUser:11750921092058]]></CREATED_USER>
+        <ID><![CDATA[11750921610033]]></ID>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <NAME><![CDATA[ bd_CO_t2e_Template]]></NAME>
+        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
+        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[{"xtype":"account","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"},{"xtype":"sourcefilelocation","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"}]}]]></PARTNER_CONFIG_INFO>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="4">
         <column name="ID" type="-5"/>
