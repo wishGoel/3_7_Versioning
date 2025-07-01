@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_Keystore>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_keystorePassword><![CDATA[i1WtnGBiFYkJjU57XJyj7g==]]></au_keystorePassword>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_keystoreXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?><KeyStore><CertificateEntry alias="ftps"><keyalg>[ABPM_._ESCAPE_._CDATA_._START]RSA[ABPM_._ESCAPE_._CDATA_._END]</keyalg><keyStoreType>[ABPM_._ESCAPE_._CDATA_._START]JKS[ABPM_._ESCAPE_._CDATA_._END]</keyStoreType><keysize>[ABPM_._ESCAPE_._CDATA_._START]1024[ABPM_._ESCAPE_._CDATA_._END]</keysize><commonName>[ABPM_._ESCAPE_._CDATA_._START]USERTrust RSA Certification Authority[ABPM_._ESCAPE_._CDATA_._END]</commonName><orgUnit>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</orgUnit><orgName>[ABPM_._ESCAPE_._CDATA_._START]The USERTRUST Network[ABPM_._ESCAPE_._CDATA_._END]</orgName><locality>[ABPM_._ESCAPE_._CDATA_._START]Jersey City[ABPM_._ESCAPE_._CDATA_._END]</locality><state>[ABPM_._ESCAPE_._CDATA_._START]New Jersey[ABPM_._ESCAPE_._CDATA_._END]</state><validity>[ABPM_._ESCAPE_._CDATA_._START]4442[ABPM_._ESCAPE_._CDATA_._END]</validity><country>[ABPM_._ESCAPE_._CDATA_._START]US[ABPM_._ESCAPE_._CDATA_._END]</country><sigalg>[ABPM_._ESCAPE_._CDATA_._START]SHA384withRSA[ABPM_._ESCAPE_._CDATA_._END]</sigalg></CertificateEntry><SelectedAlias>[ABPM_._ESCAPE_._CDATA_._START]ftps[ABPM_._ESCAPE_._CDATA_._END]</SelectedAlias></KeyStore>]]></au_keystoreXml>
+        <au_entityName><![CDATA[bd_Truststore_FTPS]]></au_entityName>
+        <au_uploadedZipFileName><![CDATA[Certificate_Key_Trustore_FTPS.crt]]></au_uploadedZipFileName>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_keyStoreFilePath><![CDATA[null]]></au_keyStoreFilePath>
+        <au_version><![CDATA[1]]></au_version>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedDate><![CDATA[2025-06-25T07:36:50]]></au_modifiedDate>
+        <au_permissionMask><![CDATA[750]]></au_permissionMask>
+        <au_id><![CDATA[172020003022175083700958500073]]></au_id>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_keyStoreType><![CDATA[JKS]]></au_keyStoreType>
+        <au_creationDate><![CDATA[2025-06-25T07:36:50]]></au_creationDate>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_privateKeyPassword><![CDATA[]]></au_privateKeyPassword>
+        <au_description><![CDATA[bd_Truststore_FTPS]]></au_description>
+        <au_create><![CDATA[truststore]]></au_create>
+        <au_creationMode><![CDATA[upload]]></au_creationMode>
+    </AU_Keystore>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_uploadedZipFileName" type="12"/>
+        <column name="au_keystorePassword" type="12"/>
+        <column name="au_privateKeyPassword" type="12"/>
+        <column name="au_keyStoreType" type="12"/>
+        <column name="au_create" type="12"/>
+        <column name="au_creationMode" type="12"/>
+        <column name="au_keyStoreFilePath" type="12"/>
+        <column name="au_keystoreXml" type="-1"/>
+    </columnInfo>
+</data>
