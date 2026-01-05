@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EDISCHEMA>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <xsdFilePath><![CDATA[Dictionary:004010_214.xsd:214:Transportation Carrier Shipment Status Message]]></xsdFilePath>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_isSkipCompliance><![CDATA[1]]></au_isSkipCompliance>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_userOwner><![CDATA[IndigoUser:11747197421433]]></au_userOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:11747197421433]]></au_modifiedBy>
+        <au_id><![CDATA[172020003022175127408960600013]]></au_id>
+        <au_modifiedDate><![CDATA[2025-06-30T09:01:30]]></au_modifiedDate>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:include schemaLocation="web/EDISchemas/X12_004010/004010_214.xsd"/>
+<xs:element name="EDIRoot">
+<xs:annotation>
+<xs:appinfo>
+<xs:standard>004010 214</xs:standard>
+<xs:isHIPPA>False</xs:isHIPPA>
+<xs:documentation>004010 214</xs:documentation>
+<xs:fieldSeparator></xs:fieldSeparator>
+<xs:segmentSeparator></xs:segmentSeparator>
+<xs:compositeSeparator></xs:compositeSeparator>
+<xs:subCompositeSeparator></xs:subCompositeSeparator>
+<xs:repetitionSeparator></xs:repetitionSeparator>
+<xs:transactionEndSeparator></xs:transactionEndSeparator>
+<xs:releaseIndicator></xs:releaseIndicator>
+<xs:validateXML>false</xs:validateXML>
+</xs:appinfo>
+</xs:annotation>
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ISA" type="ISA" minOccurs="1" maxOccurs ="1"/>
+<xs:element name="GS" type="GS" minOccurs="1" maxOccurs ="1"/>
+<xs:element name="TS_214" type="TS_214" minOccurs="1" maxOccurs ="unbounded"/>
+<xs:element name="GE" type="GE" minOccurs="0" maxOccurs ="1"/>
+<xs:element name="IEA" type="IEA" minOccurs="0" maxOccurs ="1"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>]]></au_xsd>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_dataDictionaryId><![CDATA[EDIDataDictionary:192168001034125076550892800011]]></au_dataDictionaryId>
+        <au_version><![CDATA[1]]></au_version>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[2025-06-30T09:01:30]]></au_creationDate>
+        <au_description><![CDATA[sv_214_layout]]></au_description>
+        <au_entityName><![CDATA[sv_214_layout]]></au_entityName>
+    </AU_EDISCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_dataDictionaryId" type="12"/>
+        <column name="au_isSkipCompliance" type="3"/>
+    </columnInfo>
+</data>
