@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_projectOwner><![CDATA[Project:11767156837192]]></au_projectOwner>
+        <au_id><![CDATA[172020003021176717288967800009]]></au_id>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="Root/Record" mode="_Root_Record_order1">
+</xsl:apply-templates></Root></xsl:template><xsl:template match="/Root/Record" mode="_Root_Record_order1">
+<Record><xsl:attribute name="recordNumber"><xsl:value-of select="./@recordNumber"/></xsl:attribute><NAME><xsl:value-of select="NAME"/></NAME><SEX><xsl:value-of select="SEX"/></SEX><AGE><xsl:value-of select="AGE"/></AGE><CITY><xsl:value-of select="CITY"/></CITY><FIRST><xsl:value-of select="FIRST"/></FIRST><LAST><xsl:value-of select="LAST"/></LAST><GENDER><xsl:value-of select="GENDER"/></GENDER><SCHOOL><xsl:value-of select="SCHOOL"/></SCHOOL><STATE><xsl:value-of select="STATE"/></STATE><COUNTRY><xsl:value-of select="COUNTRY"/></COUNTRY><LOCATION><xsl:value-of select="LOCATION"/></LOCATION><MARRIED><xsl:value-of select="MARRIED"/></MARRIED><ADDRESS><xsl:value-of select="ADDRESS"/></ADDRESS><STATION><xsl:value-of select="STATION"/></STATION><DATEOFBIRTH><xsl:value-of select="DATEOFBIRTH"/></DATEOFBIRTH><HOSPITALNAME><xsl:value-of select="HOSPITALNAME"/></HOSPITALNAME><HOBBIES><xsl:value-of select="HOBBIES"/></HOBBIES></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_userOwner><![CDATA[IndigoUser:11767156837187]]></au_userOwner>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_modifiedBy><![CDATA[IndigoUser:11767156837187]]></au_modifiedBy>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_creationDate><![CDATA[2025-12-31T09:21:30]]></au_creationDate>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_entityName><![CDATA[ss_text_mapp]]></au_entityName>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedDate><![CDATA[2025-12-31T09:21:30]]></au_modifiedDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules2248295372539697008.pdf]]></au_pdfFileName>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_description><![CDATA[ss_text_mapp]]></au_description>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+<mappingVersion>6.1</mappingVersion>
+<mappingName>ss_text_mapp</mappingName>
+<mappingProject>Project:11767156837192</mappingProject>
+<mappingDescription>ss_text_mapp</mappingDescription>
+<sourceSchemaID>TextSchema:172020003021176717282315000007</sourceSchemaID>
+<targetSchemaID>TextSchema:172020003021176717282315000007</targetSchemaID>
+<mappingOwnerGroup>192168001075148181566048300002</mappingOwnerGroup>
+<mappingOwner>Shivam Singh</mappingOwner>
+<mappingLastModifiedBy>Shivam Singh</mappingLastModifiedBy>
+<mappingCreationDate>Wed Dec 31 09:21:28 UTC 2025</mappingCreationDate>
+<mappingModifiedDate>Wed Dec 31 09:21:28 UTC 2025</mappingModifiedDate>
+<reusable>null</reusable>
+</mappingInformation>
+<sourceRoots>
+<sourceRoot>
+<name>Root</name>
+<schemaName>ss_text_layout</schemaName>
+<schemaID>TextSchema:172020003021176717282315000007</schemaID>
+</sourceRoot>
+</sourceRoots>
+<targetRoots>
+<targetRoot>
+<name>Root</name>
+<schemaName>ss_text_layout</schemaName>
+<schemaID>TextSchema:172020003021176717282315000007</schemaID>
+<stream>output_1</stream>
+</targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Record">
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record" mapString="$Input_ss_text_layout/Root/Record" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/NAME</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/NAME</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="NAME">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/NAME" mapString="$Input_ss_text_layout/Root/Record/NAME" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/NAME" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/NAME" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/SEX</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/SEX</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="SEX">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/SEX" mapString="$Input_ss_text_layout/Root/Record/SEX" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/SEX" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/SEX" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/AGE</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/AGE</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="AGE">
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/AGE" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/AGE" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/AGE" mapString="$Input_ss_text_layout/Root/Record/AGE" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/CITY</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/CITY</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="CITY">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/CITY" mapString="$Input_ss_text_layout/Root/Record/CITY" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/CITY" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/CITY" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/FIRST</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/FIRST</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="FIRST">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/FIRST" mapString="$Input_ss_text_layout/Root/Record/FIRST" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/FIRST" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/FIRST" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/LAST</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/LAST</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="LAST">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/LAST" mapString="$Input_ss_text_layout/Root/Record/LAST" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/LAST" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/LAST" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/GENDER</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/GENDER</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="GENDER">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/GENDER" mapString="$Input_ss_text_layout/Root/Record/GENDER" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/GENDER" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/GENDER" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/SCHOOL</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/SCHOOL</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="SCHOOL">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/SCHOOL" mapString="$Input_ss_text_layout/Root/Record/SCHOOL" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/SCHOOL" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/SCHOOL" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/STATE</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/STATE</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="STATE">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/STATE" mapString="$Input_ss_text_layout/Root/Record/STATE" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/STATE" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/STATE" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/COUNTRY</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/COUNTRY</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="COUNTRY">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/COUNTRY" mapString="$Input_ss_text_layout/Root/Record/COUNTRY" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/COUNTRY" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/COUNTRY" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/LOCATION</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/LOCATION</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="LOCATION">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/LOCATION" mapString="$Input_ss_text_layout/Root/Record/LOCATION" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/LOCATION" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/LOCATION" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/MARRIED</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/MARRIED</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="MARRIED">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/MARRIED" mapString="$Input_ss_text_layout/Root/Record/MARRIED" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/MARRIED" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/MARRIED" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/ADDRESS</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/ADDRESS</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ADDRESS">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/ADDRESS" mapString="$Input_ss_text_layout/Root/Record/ADDRESS" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/ADDRESS" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/ADDRESS" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/STATION</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/STATION</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="STATION">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/STATION" mapString="$Input_ss_text_layout/Root/Record/STATION" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/STATION" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/STATION" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/DATEOFBIRTH</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/DATEOFBIRTH</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="DATEOFBIRTH">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/DATEOFBIRTH" mapString="$Input_ss_text_layout/Root/Record/DATEOFBIRTH" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/DATEOFBIRTH" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/DATEOFBIRTH" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/HOSPITALNAME</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/HOSPITALNAME</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="HOSPITALNAME">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/HOSPITALNAME" mapString="$Input_ss_text_layout/Root/Record/HOSPITALNAME" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/HOSPITALNAME" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/HOSPITALNAME" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/HOBBIES</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/HOBBIES</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="HOBBIES">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/HOBBIES" mapString="$Input_ss_text_layout/Root/Record/HOBBIES" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/HOBBIES" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/HOBBIES" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>ss_text_layout</targetName>
+<dest>/Root/Record/@recordNumber</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_ss_text_layout/Root/Record/@recordNumber</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="@recordNumber">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/@recordNumber" mapString="$Input_ss_text_layout/Root/Record/@recordNumber" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_ss_text_layout/Root/Record/@recordNumber" mapString="&lt;S&gt;$Input_ss_text_layout/Root/Record/@recordNumber" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+<valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+<globalTemplate>global</globalTemplate>
+<customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+<streamingMode>false</streamingMode>
+<filterEmptyElements>false</filterEmptyElements>
+<dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+<SelfRecursionLevel>0</SelfRecursionLevel>
+<EnableTypesBuffering>true</EnableTypesBuffering>
+<CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+<consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_storedProcedure><![CDATA[null]]></au_storedProcedure>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_targetSchema><![CDATA[TextSchema:172020003021176717282315000007]]></au_targetSchema>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_sourceSchema><![CDATA[TextSchema:172020003021176717282315000007]]></au_sourceSchema>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"ss_text_mapp","mappingProject":"Project:11767156837192","mappingDescription":"ss_text_mapp","sourceSchemaID":"TextSchema:172020003021176717282315000007","targetSchemaID":"TextSchema:172020003021176717282315000007","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"ss_text_layout","schemaID":"TextSchema:172020003021176717282315000007","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"ss_text_layout","schemaID":"TextSchema:172020003021176717282315000007"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"ss_text_layout","targetfield":"Record","targetfieldpath":"/Root/Record","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888208","elementItem":{"elementType":"SourceElement","name":"Record","expression":"$Input_ss_text_layout/Root/Record","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888209_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888209"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888209","elementItem":{"elementType":"TargetElement","name":"Record","expression":"$Input_ss_text_layout/Root/Record","paramsCount":1,"syntax":"ss_text_layout/Root/Record"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888208"]}],"expression":"$Input_ss_text_layout/Root/Record","targetrecord":"Root","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"Record","sourcefielddisplayname":"Record","sourcefieldpath":"/Root/Record","sourcerecord":"Root"}],"markComplete":false,"mapId":"Map-1","expressionNote":"","expressionPath":"$Input_ss_text_layout/Root/Record"},{"order":1,"targetName":"ss_text_layout","targetfield":"NAME","targetfieldpath":"/Root/Record/NAME","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"NAME","sourcefielddisplayname":"NAME","sourcefieldpath":"/Root/Record/NAME","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-2","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/NAME","expressionPath":"$Input_ss_text_layout/Root/Record/NAME","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888211","elementItem":{"elementType":"SourceElement","name":"NAME","expression":"$Input_ss_text_layout/Root/Record/NAME","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/NAME"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888212_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888212"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888212","elementItem":{"elementType":"TargetElement","name":"NAME","expression":"$Input_ss_text_layout/Root/Record/NAME","paramsCount":1,"syntax":"ss_text_layout/Root/Record/NAME"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888211"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"SEX","targetfieldpath":"/Root/Record/SEX","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"SEX","sourcefielddisplayname":"SEX","sourcefieldpath":"/Root/Record/SEX","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-3","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/SEX","expressionPath":"$Input_ss_text_layout/Root/Record/SEX","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888213","elementItem":{"elementType":"SourceElement","name":"SEX","expression":"$Input_ss_text_layout/Root/Record/SEX","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/SEX"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888214_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888214"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888214","elementItem":{"elementType":"TargetElement","name":"SEX","expression":"$Input_ss_text_layout/Root/Record/SEX","paramsCount":1,"syntax":"ss_text_layout/Root/Record/SEX"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888213"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"AGE","targetfieldpath":"/Root/Record/AGE","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"AGE","sourcefielddisplayname":"AGE","sourcefieldpath":"/Root/Record/AGE","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-4","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/AGE","expressionPath":"$Input_ss_text_layout/Root/Record/AGE","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888215","elementItem":{"elementType":"SourceElement","name":"AGE","expression":"$Input_ss_text_layout/Root/Record/AGE","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/AGE"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888216_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888216"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888216","elementItem":{"elementType":"TargetElement","name":"AGE","expression":"$Input_ss_text_layout/Root/Record/AGE","paramsCount":1,"syntax":"ss_text_layout/Root/Record/AGE"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888215"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"CITY","targetfieldpath":"/Root/Record/CITY","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"CITY","sourcefielddisplayname":"CITY","sourcefieldpath":"/Root/Record/CITY","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-5","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/CITY","expressionPath":"$Input_ss_text_layout/Root/Record/CITY","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888216","elementItem":{"elementType":"SourceElement","name":"CITY","expression":"$Input_ss_text_layout/Root/Record/CITY","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/CITY"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888217_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888217"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888217","elementItem":{"elementType":"TargetElement","name":"CITY","expression":"$Input_ss_text_layout/Root/Record/CITY","paramsCount":1,"syntax":"ss_text_layout/Root/Record/CITY"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888216"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"FIRST","targetfieldpath":"/Root/Record/FIRST","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"FIRST","sourcefielddisplayname":"FIRST","sourcefieldpath":"/Root/Record/FIRST","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-6","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/FIRST","expressionPath":"$Input_ss_text_layout/Root/Record/FIRST","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888218","elementItem":{"elementType":"SourceElement","name":"FIRST","expression":"$Input_ss_text_layout/Root/Record/FIRST","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/FIRST"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888219_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888219"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888219","elementItem":{"elementType":"TargetElement","name":"FIRST","expression":"$Input_ss_text_layout/Root/Record/FIRST","paramsCount":1,"syntax":"ss_text_layout/Root/Record/FIRST"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888218"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"LAST","targetfieldpath":"/Root/Record/LAST","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"LAST","sourcefielddisplayname":"LAST","sourcefieldpath":"/Root/Record/LAST","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-7","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/LAST","expressionPath":"$Input_ss_text_layout/Root/Record/LAST","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888220","elementItem":{"elementType":"SourceElement","name":"LAST","expression":"$Input_ss_text_layout/Root/Record/LAST","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/LAST"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888221_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888221"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888221","elementItem":{"elementType":"TargetElement","name":"LAST","expression":"$Input_ss_text_layout/Root/Record/LAST","paramsCount":1,"syntax":"ss_text_layout/Root/Record/LAST"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888220"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"GENDER","targetfieldpath":"/Root/Record/GENDER","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"GENDER","sourcefielddisplayname":"GENDER","sourcefieldpath":"/Root/Record/GENDER","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-8","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/GENDER","expressionPath":"$Input_ss_text_layout/Root/Record/GENDER","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888221","elementItem":{"elementType":"SourceElement","name":"GENDER","expression":"$Input_ss_text_layout/Root/Record/GENDER","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/GENDER"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888222_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888222"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888222","elementItem":{"elementType":"TargetElement","name":"GENDER","expression":"$Input_ss_text_layout/Root/Record/GENDER","paramsCount":1,"syntax":"ss_text_layout/Root/Record/GENDER"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888221"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"SCHOOL","targetfieldpath":"/Root/Record/SCHOOL","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"SCHOOL","sourcefielddisplayname":"SCHOOL","sourcefieldpath":"/Root/Record/SCHOOL","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-9","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/SCHOOL","expressionPath":"$Input_ss_text_layout/Root/Record/SCHOOL","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888223","elementItem":{"elementType":"SourceElement","name":"SCHOOL","expression":"$Input_ss_text_layout/Root/Record/SCHOOL","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/SCHOOL"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888224_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888224"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888224","elementItem":{"elementType":"TargetElement","name":"SCHOOL","expression":"$Input_ss_text_layout/Root/Record/SCHOOL","paramsCount":1,"syntax":"ss_text_layout/Root/Record/SCHOOL"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888223"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"STATE","targetfieldpath":"/Root/Record/STATE","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"STATE","sourcefielddisplayname":"STATE","sourcefieldpath":"/Root/Record/STATE","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-10","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/STATE","expressionPath":"$Input_ss_text_layout/Root/Record/STATE","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888225","elementItem":{"elementType":"SourceElement","name":"STATE","expression":"$Input_ss_text_layout/Root/Record/STATE","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/STATE"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888226_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888226"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888226","elementItem":{"elementType":"TargetElement","name":"STATE","expression":"$Input_ss_text_layout/Root/Record/STATE","paramsCount":1,"syntax":"ss_text_layout/Root/Record/STATE"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888225"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"COUNTRY","targetfieldpath":"/Root/Record/COUNTRY","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"COUNTRY","sourcefielddisplayname":"COUNTRY","sourcefieldpath":"/Root/Record/COUNTRY","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-11","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/COUNTRY","expressionPath":"$Input_ss_text_layout/Root/Record/COUNTRY","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888228","elementItem":{"elementType":"SourceElement","name":"COUNTRY","expression":"$Input_ss_text_layout/Root/Record/COUNTRY","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/COUNTRY"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888229_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888229"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888229","elementItem":{"elementType":"TargetElement","name":"COUNTRY","expression":"$Input_ss_text_layout/Root/Record/COUNTRY","paramsCount":1,"syntax":"ss_text_layout/Root/Record/COUNTRY"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888228"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"LOCATION","targetfieldpath":"/Root/Record/LOCATION","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"LOCATION","sourcefielddisplayname":"LOCATION","sourcefieldpath":"/Root/Record/LOCATION","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-12","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/LOCATION","expressionPath":"$Input_ss_text_layout/Root/Record/LOCATION","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888230","elementItem":{"elementType":"SourceElement","name":"LOCATION","expression":"$Input_ss_text_layout/Root/Record/LOCATION","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/LOCATION"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888231_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888231"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888231","elementItem":{"elementType":"TargetElement","name":"LOCATION","expression":"$Input_ss_text_layout/Root/Record/LOCATION","paramsCount":1,"syntax":"ss_text_layout/Root/Record/LOCATION"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888230"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"MARRIED","targetfieldpath":"/Root/Record/MARRIED","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"MARRIED","sourcefielddisplayname":"MARRIED","sourcefieldpath":"/Root/Record/MARRIED","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-13","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/MARRIED","expressionPath":"$Input_ss_text_layout/Root/Record/MARRIED","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888231","elementItem":{"elementType":"SourceElement","name":"MARRIED","expression":"$Input_ss_text_layout/Root/Record/MARRIED","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/MARRIED"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888232_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888232"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888232","elementItem":{"elementType":"TargetElement","name":"MARRIED","expression":"$Input_ss_text_layout/Root/Record/MARRIED","paramsCount":1,"syntax":"ss_text_layout/Root/Record/MARRIED"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888231"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"ADDRESS","targetfieldpath":"/Root/Record/ADDRESS","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"ADDRESS","sourcefielddisplayname":"ADDRESS","sourcefieldpath":"/Root/Record/ADDRESS","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-14","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/ADDRESS","expressionPath":"$Input_ss_text_layout/Root/Record/ADDRESS","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888233","elementItem":{"elementType":"SourceElement","name":"ADDRESS","expression":"$Input_ss_text_layout/Root/Record/ADDRESS","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/ADDRESS"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888234_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888234"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888234","elementItem":{"elementType":"TargetElement","name":"ADDRESS","expression":"$Input_ss_text_layout/Root/Record/ADDRESS","paramsCount":1,"syntax":"ss_text_layout/Root/Record/ADDRESS"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888233"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"STATION","targetfieldpath":"/Root/Record/STATION","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"STATION","sourcefielddisplayname":"STATION","sourcefieldpath":"/Root/Record/STATION","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-15","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/STATION","expressionPath":"$Input_ss_text_layout/Root/Record/STATION","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888236","elementItem":{"elementType":"SourceElement","name":"STATION","expression":"$Input_ss_text_layout/Root/Record/STATION","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/STATION"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888237_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888237"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888237","elementItem":{"elementType":"TargetElement","name":"STATION","expression":"$Input_ss_text_layout/Root/Record/STATION","paramsCount":1,"syntax":"ss_text_layout/Root/Record/STATION"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888236"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"DATEOFBIRTH","targetfieldpath":"/Root/Record/DATEOFBIRTH","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"DATEOFBIRTH","sourcefielddisplayname":"DATEOFBIRTH","sourcefieldpath":"/Root/Record/DATEOFBIRTH","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-16","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/DATEOFBIRTH","expressionPath":"$Input_ss_text_layout/Root/Record/DATEOFBIRTH","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888238","elementItem":{"elementType":"SourceElement","name":"DATEOFBIRTH","expression":"$Input_ss_text_layout/Root/Record/DATEOFBIRTH","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/DATEOFBIRTH"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888239_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888239"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888239","elementItem":{"elementType":"TargetElement","name":"DATEOFBIRTH","expression":"$Input_ss_text_layout/Root/Record/DATEOFBIRTH","paramsCount":1,"syntax":"ss_text_layout/Root/Record/DATEOFBIRTH"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888238"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"HOSPITALNAME","targetfieldpath":"/Root/Record/HOSPITALNAME","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"HOSPITALNAME","sourcefielddisplayname":"HOSPITALNAME","sourcefieldpath":"/Root/Record/HOSPITALNAME","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-17","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/HOSPITALNAME","expressionPath":"$Input_ss_text_layout/Root/Record/HOSPITALNAME","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888241","elementItem":{"elementType":"SourceElement","name":"HOSPITALNAME","expression":"$Input_ss_text_layout/Root/Record/HOSPITALNAME","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/HOSPITALNAME"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888242_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888242"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888242","elementItem":{"elementType":"TargetElement","name":"HOSPITALNAME","expression":"$Input_ss_text_layout/Root/Record/HOSPITALNAME","paramsCount":1,"syntax":"ss_text_layout/Root/Record/HOSPITALNAME"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888241"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"HOBBIES","targetfieldpath":"/Root/Record/HOBBIES","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"HOBBIES","sourcefielddisplayname":"HOBBIES","sourcefieldpath":"/Root/Record/HOBBIES","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-18","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/HOBBIES","expressionPath":"$Input_ss_text_layout/Root/Record/HOBBIES","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888243","elementItem":{"elementType":"SourceElement","name":"HOBBIES","expression":"$Input_ss_text_layout/Root/Record/HOBBIES","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/HOBBIES"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888244_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888244"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888244","elementItem":{"elementType":"TargetElement","name":"HOBBIES","expression":"$Input_ss_text_layout/Root/Record/HOBBIES","paramsCount":1,"syntax":"ss_text_layout/Root/Record/HOBBIES"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888243"]}]},{"order":1,"targetName":"ss_text_layout","targetfield":"@recordNumber","targetfieldpath":"/Root/Record/@recordNumber","targetrecord":"Record","mapping":[{"sourceName":"ss_text_layout","operatortype":"field","sourcefield":"@recordNumber","sourcefielddisplayname":"@recordNumber","sourcefieldpath":"/Root/Record/@recordNumber","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-19","expressionNote":"","expression":"$Input_ss_text_layout/Root/Record/@recordNumber","expressionPath":"$Input_ss_text_layout/Root/Record/@recordNumber","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1767172888245","elementItem":{"elementType":"SourceElement","name":"@recordNumber","expression":"$Input_ss_text_layout/Root/Record/@recordNumber","paramsCount":0,"syntax":"$Input_ss_text_layout/Root/Record/@recordNumber"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1767172888246_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1767172888246"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1767172888246","elementItem":{"elementType":"TargetElement","name":"@recordNumber","expression":"$Input_ss_text_layout/Root/Record/@recordNumber","paramsCount":1,"syntax":"ss_text_layout/Root/Record/@recordNumber"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1767172888245"]}]}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+    </columnInfo>
+</data>
